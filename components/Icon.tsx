@@ -333,6 +333,18 @@ export const Truck = (p: IconProps) => (
   </Svg>
 );
 
+export const Moon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+  </Svg>
+);
+
+export const Activity = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.5.5 0 0 1-.96 0L9.24 2.18a.5.5 0 0 0-.96 0l-2.35 8.36A2 2 0 0 1 4 12H2" />
+  </Svg>
+);
+
 export const Wind = (p: IconProps) => (
   <Svg {...p}>
     <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" />
