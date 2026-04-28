@@ -1,5 +1,6 @@
 import { waLink } from '@/lib/site';
 import { ImagePlaceholder } from './ImagePlaceholder';
+import { Bed, Lightbulb, Tag, Check } from './Icon';
 
 type Product = {
   id: string;
@@ -66,7 +67,9 @@ export function Products() {
     <section id="produk" className="py-16 sm:py-24 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
-          <span className="pill">🛏️ Produk Kami</span>
+          <span className="pill">
+            <Bed size={14} /> Produk Kami
+          </span>
           <h2 className="section-title mt-3">Pilih Katil Hospital yang Sesuai</h2>
           <p className="section-sub">
             Semua katil kami berkualiti gred hospital, lulus piawaian MDA. Pilihan untuk{' '}
@@ -110,8 +113,8 @@ export function Products() {
 
                 <ul className="mt-5 space-y-2 text-sm text-slate-600 flex-1">
                   {p.features.map((f) => (
-                    <li key={f} className="flex gap-2">
-                      <span className="text-accent-500">✓</span> {f}
+                    <li key={f} className="flex items-start gap-2">
+                      <Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> {f}
                     </li>
                   ))}
                 </ul>
@@ -131,27 +134,37 @@ export function Products() {
 
         <div id="sewa" className="mt-14 grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 text-white p-8">
-            <h3 className="text-2xl font-bold">💡 Sewa Dulu, Beli Kemudian</h3>
+            <div className="flex items-center gap-3">
+              <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/15">
+                <Lightbulb size={20} />
+              </span>
+              <h3 className="text-2xl font-bold">Sewa Dulu, Beli Kemudian</h3>
+            </div>
             <p className="mt-3 text-brand-100">
               Tak pasti perlu berapa lama? Sewa dulu — kalau dah selesa, bayaran sewa boleh ditolak
               dari harga beli. Tiada deposit, tiada caj tersembunyi.
             </p>
-            <ul className="mt-4 space-y-1 text-sm text-brand-100">
-              <li>✓ Pemasangan & latihan penjaga PERCUMA</li>
-              <li>✓ Servis & repair PERCUMA</li>
-              <li>✓ Boleh batal bila-bila masa selepas 1 bulan</li>
+            <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan & latihan penjaga PERCUMA</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis & repair PERCUMA</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal bila-bila masa selepas 1 bulan</li>
             </ul>
           </div>
           <div id="beli" className="rounded-3xl bg-white border border-slate-100 p-8 shadow-soft">
-            <h3 className="text-2xl font-bold text-slate-900">🏷️ Beli Terus & Jimat Lebih</h3>
+            <div className="flex items-center gap-3">
+              <span className="grid h-10 w-10 place-items-center rounded-xl bg-accent-50 text-accent-600">
+                <Tag size={20} />
+              </span>
+              <h3 className="text-2xl font-bold text-slate-900">Beli Terus & Jimat Lebih</h3>
+            </div>
             <p className="mt-3 text-slate-600">
               Kalau kes panjang (lebih 6 bulan), beli terus lebih jimat. Kami tawarkan ansuran 0%
               sehingga 12 bulan untuk model elektrik.
             </p>
-            <ul className="mt-4 space-y-1 text-sm text-slate-700">
-              <li>✓ Waranti 2 tahun</li>
-              <li>✓ Program trade-in (kami beli balik)</li>
-              <li>✓ Ansuran 0% sehingga 12 bulan</li>
+            <ul className="mt-4 space-y-1.5 text-sm text-slate-700">
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti 2 tahun</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Program trade-in (kami beli balik)</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran 0% sehingga 12 bulan</li>
             </ul>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import { HelpCircle } from './Icon';
+
 type QA = { q: string; a: string };
 
 export const faqs: QA[] = [
@@ -40,7 +42,9 @@ export function FAQ() {
     <section id="faq" className="py-16 sm:py-24 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
-          <span className="pill">❓ FAQ</span>
+          <span className="pill">
+            <HelpCircle size={14} /> FAQ
+          </span>
           <h2 className="section-title mt-3">Soalan Lazim</h2>
           <p className="section-sub">
             Soalan yang paling kerap ditanya oleh keluarga sebelum sewa atau beli katil hospital.

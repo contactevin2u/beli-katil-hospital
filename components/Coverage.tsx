@@ -1,3 +1,5 @@
+import { MapPin } from './Icon';
+
 const coverage = [
   { state: 'Selangor', cities: ['Shah Alam', 'Petaling Jaya', 'Subang Jaya', 'Klang', 'Kajang', 'Cheras', 'Ampang', 'Puchong', 'Cyberjaya', 'Putrajaya', 'Bangi', 'Rawang', 'Semenyih', 'Sepang', 'Kuala Selangor', 'Banting', 'Sungai Buloh', 'Hulu Langat', 'Gombak'] },
   { state: 'Kuala Lumpur', cities: ['Bangsar', 'Mont Kiara', 'Setapak', 'Wangsa Maju', 'Kepong', 'Bukit Bintang', 'KLCC', 'Cheras', 'Sentul', 'Pudu', 'Jalan Ipoh', 'Sri Petaling', 'OUG', 'Damansara'] },
@@ -21,7 +23,9 @@ export function Coverage() {
     <section id="liputan" className="py-16 sm:py-24">
       <div className="container-x">
         <div className="max-w-2xl">
-          <span className="pill">📍 Liputan Penghantaran</span>
+          <span className="pill">
+            <MapPin size={14} /> Liputan Penghantaran
+          </span>
           <h2 className="section-title mt-3">Kami Hantar ke Seluruh Malaysia</h2>
           <p className="section-sub">
             Daripada Lembah Klang sehingga Sabah & Sarawak — pasukan logistik kami sentiasa
@@ -34,7 +38,7 @@ export function Coverage() {
             <details key={c.state} className="rounded-2xl bg-white border border-slate-100 p-5 group">
               <summary className="cursor-pointer flex items-center justify-between font-bold text-slate-900">
                 <span className="flex items-center gap-2">
-                  <span className="text-brand-700">📍</span> {c.state}
+                  <MapPin size={16} className="text-brand-700" /> {c.state}
                 </span>
                 <span className="text-slate-400 text-xs group-open:rotate-180 transition">▼</span>
               </summary>

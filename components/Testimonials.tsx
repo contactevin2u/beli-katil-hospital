@@ -1,3 +1,5 @@
+import { MessageSquare, Star, StarOutline } from './Icon';
+
 type Review = {
   name: string;
   role: string;
@@ -39,7 +41,13 @@ const reviews: Review[] = [
 ];
 
 function Stars({ count }: { count: number }) {
-  return <span className="text-amber-500">{'★'.repeat(count)}{'☆'.repeat(5 - count)}</span>;
+  return (
+    <span className="flex items-center gap-0.5 text-amber-500">
+      {Array.from({ length: 5 }, (_, i) =>
+        i < count ? <Star key={i} size={16} /> : <StarOutline key={i} size={16} />
+      )}
+    </span>
+  );
 }
 
 export function Testimonials() {
@@ -47,8 +55,15 @@ export function Testimonials() {
     <section className="py-16 sm:py-24 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
-          <span className="pill">💬 Kata Pelanggan</span>
-          <h2 className="section-title mt-3">4.9★ daripada 500+ Ulasan Google</h2>
+          <span className="pill">
+            <MessageSquare size={14} /> Kata Pelanggan
+          </span>
+          <h2 className="section-title mt-3 flex flex-wrap items-center gap-2">
+            <span className="inline-flex items-center gap-1">
+              4.9 <Star size={28} className="text-amber-500" />
+            </span>
+            <span>daripada 500+ Ulasan Google</span>
+          </h2>
           <p className="section-sub">
             Apa kata keluarga yang pernah guna katil hospital daripada kami:
           </p>

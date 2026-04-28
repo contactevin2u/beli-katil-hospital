@@ -1,4 +1,5 @@
 import { site, waLink } from '@/lib/site';
+import { MapPin } from './Icon';
 
 export function Footer() {
   return (
@@ -15,8 +16,12 @@ export function Footer() {
           </p>
           <div className="mt-5 text-sm">
             <div className="font-bold text-white">{site.company}</div>
-            <div className="mt-1">📍 HQ: {site.hqAddress}</div>
-            <div>📍 Cawangan: {site.branchAddress}</div>
+            <div className="mt-1 flex items-start gap-1.5">
+              <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> HQ: {site.hqAddress}
+            </div>
+            <div className="flex items-start gap-1.5">
+              <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> Cawangan: {site.branchAddress}
+            </div>
           </div>
           <div className="mt-5 flex gap-3">
             <a href={waLink()} target="_blank" rel="noopener" className="rounded-full bg-accent-500 hover:bg-accent-600 px-4 py-2 text-sm font-semibold text-white">
