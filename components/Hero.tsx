@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { site, waLink, telLink } from '@/lib/site';
-import { ImagePlaceholder } from './ImagePlaceholder';
 import { Clock, CheckCircle, Wrench, Hospital, Phone, WhatsApp, Bolt, StarOutline, Star } from './Icon';
 import type { ComponentType, SVGProps } from 'react';
 
@@ -68,11 +68,16 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <ImagePlaceholder
-            label="Gambar Katil Hospital (Hero)"
-            note="hero-katil.jpg • 1200x900"
-            className="aspect-[4/3] rounded-3xl shadow-soft"
-          />
+          <div className="relative aspect-[4/3] rounded-3xl shadow-soft overflow-hidden">
+            <Image
+              src="/images/hero-katil.png"
+              alt="Katil hospital elektrik di bilik rumah moden — sandaran kepala dinaikkan, pemandangan balkoni"
+              fill
+              priority
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
           <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-soft p-4 border border-slate-100 hidden sm:block">
             <div className="text-xs text-slate-500">Promosi Bulan Ini</div>
             <div className="font-bold text-slate-900">Sewa dari RM150/bulan</div>
