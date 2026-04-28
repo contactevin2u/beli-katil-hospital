@@ -1,0 +1,9 @@
+# Letak gambar produk di sini.
+# Suggested filenames (matching ImagePlaceholder notes):
+#   - hero-katil.jpg            (1200x900)
+#   - katil-2function.jpg       (800x600)
+#   - katil-3function.jpg       (800x600)
+#   - katil-elektrik.jpg        (800x600)
+#   - penjagaan-rumah.jpg       (1000x1100)
+#   - delivery-1.jpg ... delivery-4.jpg
+# Lepas upload, tukar <ImagePlaceholder ... /> kepada <Image src="/images/xxx.jpg" ... />
