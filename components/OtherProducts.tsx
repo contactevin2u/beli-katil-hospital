@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { waLink, telLink, site } from '@/lib/site';
-import { ImagePlaceholder } from './ImagePlaceholder';
 import {
   Wind,
   Droplet,
@@ -158,11 +158,15 @@ export function OtherProducts() {
           </div>
 
           <div className="lg:col-span-2 relative bg-gradient-to-br from-brand-600 to-brand-800 text-white p-6 sm:p-10 flex flex-col justify-between">
-            <ImagePlaceholder
-              label="CPAP Machine"
-              note="cpap-machine.jpg • 800x800"
-              className="aspect-square rounded-2xl !bg-white/10 !border-white/20 !text-white/60 mb-6"
-            />
+            <div className="relative aspect-square rounded-2xl overflow-hidden mb-6 shadow-soft ring-1 ring-white/15">
+              <Image
+                src="/images/cpap-machine.png"
+                alt="CPAP machine ResMed AirStart 10 di atas meja"
+                fill
+                sizes="(max-width: 1024px) 100vw, 40vw"
+                className="object-cover"
+              />
+            </div>
             <div className="space-y-4">
               <div className="rounded-2xl bg-white/10 border border-white/15 p-4">
                 <div className="text-xs uppercase tracking-wide text-brand-100">
