@@ -3,7 +3,7 @@ import { Bolt, Phone, WhatsApp, Clock, Siren, Mail } from './Icon';
 
 export function ContactCTA() {
   return (
-    <section id="hubungi" className="py-16 sm:py-24 bg-gradient-to-br from-accent-500 to-emerald-700 text-white">
+    <section id="hubungi" className="py-16 sm:py-24 bg-gradient-to-br from-accent-500 to-orange-700 text-white">
       <div className="container-x text-center max-w-3xl mx-auto">
         <span className="pill !bg-white/15 !text-white">
           <Bolt size={14} /> Sedia Untuk Bantu Anda
@@ -11,7 +11,7 @@ export function ContactCTA() {
         <h2 className="text-3xl sm:text-5xl font-extrabold mt-4 leading-tight">
           Perlukan Katil Hospital Hari Ini?
         </h2>
-        <p className="mt-5 text-emerald-50 text-lg">
+        <p className="mt-5 text-orange-50 text-lg">
           WhatsApp kami sekarang — kami balas dalam 5 minit. Konsultasi percuma, tiada paksaan.
           Kami bantu anda pilih katil yang paling sesuai untuk keluarga.
         </p>
@@ -21,7 +21,7 @@ export function ContactCTA() {
             href={waLink()}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-accent-600 hover:bg-emerald-50 font-bold px-8 py-4 shadow-soft text-base"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-white text-accent-600 hover:bg-orange-50 font-bold px-8 py-4 shadow-soft text-base"
           >
             <WhatsApp size={20} />
             WhatsApp Kami
@@ -34,7 +34,7 @@ export function ContactCTA() {
           </a>
         </div>
 
-        <div className="mt-8 grid sm:grid-cols-3 gap-3 text-sm text-emerald-50">
+        <div className="mt-8 grid sm:grid-cols-3 gap-3 text-sm text-orange-50">
           <div className="rounded-xl bg-white/10 border border-white/15 p-3">
             <div className="flex items-center justify-center gap-1.5 font-bold text-white">
               <Clock size={16} /> Waktu Pejabat

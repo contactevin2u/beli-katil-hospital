@@ -66,7 +66,7 @@ export function OtherProducts() {
   return (
     <section
       id="peralatan-lain"
-      className="py-16 sm:py-24 bg-gradient-to-br from-brand-50 via-white to-emerald-50"
+      className="py-16 sm:py-24 bg-gradient-to-br from-brand-50 via-white to-orange-50"
     >
       <div className="container-x">
         <div className="max-w-2xl">
@@ -134,7 +134,7 @@ export function OtherProducts() {
                 <div className="text-xl font-extrabold text-brand-700">RM250/bulan</div>
                 <div className="text-xs text-slate-500 mt-0.5">Termasuk mask & humidifier</div>
               </div>
-              <div className="rounded-xl bg-emerald-50 p-4">
+              <div className="rounded-xl bg-orange-50 p-4">
                 <div className="text-xs text-slate-500">Beli</div>
                 <div className="text-xl font-extrabold text-accent-600">Mulai RM2,499</div>
                 <div className="text-xs text-slate-500 mt-0.5">Ansuran 0% sehingga 12 bulan</div>
