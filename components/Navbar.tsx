@@ -4,6 +4,7 @@ import { Phone, WhatsApp } from './Icon';
 
 const navItems = [
   { href: '#produk', label: 'Produk' },
+  { href: '#peralatan-lain', label: 'CPAP & Lain' },
   { href: '#sewa', label: 'Sewa' },
   { href: '#beli', label: 'Beli' },
   { href: '#kelebihan', label: 'Kelebihan' },
