@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { waLink } from '@/lib/site';
-import { ImagePlaceholder } from './ImagePlaceholder';
 import { Bed, Lightbulb, Tag, Check } from './Icon';
 
 type Product = {
@@ -10,7 +10,7 @@ type Product = {
   buyPrice: string;
   features: string[];
   badge?: string;
-  imageNote: string;
+  image: { src: string; width: number; height: number };
 };
 
 const products: Product[] = [
@@ -27,7 +27,7 @@ const products: Product[] = [
       'Roda berkunci',
       'Berat tanggungan: 200kg'
     ],
-    imageNote: 'katil-2function.jpg • 800x600'
+    image: { src: '/images/katil-2-function.webp', width: 420, height: 420 }
   },
   {
     id: 'flexi-3f',
@@ -43,7 +43,7 @@ const products: Product[] = [
       'Pagar sisi keselamatan',
       'Termasuk tilam ortopedik'
     ],
-    imageNote: 'katil-3function.jpg • 800x600'
+    image: { src: '/images/katil-3-function.webp', width: 560, height: 560 }
   },
   {
     id: 'ultra-electric',
@@ -58,7 +58,7 @@ const products: Product[] = [
       'Bateri sandaran kuasa',
       'Tilam pembendung lubang baring'
     ],
-    imageNote: 'katil-elektrik.jpg • 800x600'
+    image: { src: '/images/katil-elektrik.webp', width: 420, height: 420 }
   }
 ];
 
@@ -89,11 +89,15 @@ export function Products() {
                   {p.badge}
                 </div>
               )}
-              <ImagePlaceholder
-                label={p.name}
-                note={p.imageNote}
-                className="aspect-[4/3]"
-              />
+              <div className="aspect-square bg-gradient-to-br from-slate-50 to-slate-100 grid place-items-center p-6">
+                <Image
+                  src={p.image.src}
+                  alt={p.name}
+                  width={p.image.width}
+                  height={p.image.height}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <div className="p-6 flex-1 flex flex-col">
                 <div className="text-xs font-semibold text-brand-700 uppercase tracking-wide">
                   {p.tagline}
