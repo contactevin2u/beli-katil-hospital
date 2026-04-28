@@ -71,7 +71,7 @@ export function Hero() {
           <div className="relative aspect-[4/3] rounded-3xl shadow-soft overflow-hidden">
             <Image
               src="/images/hero-katil.png"
-              alt="Katil hospital elektrik di bilik rumah moden — sandaran kepala dinaikkan, pemandangan balkoni"
+              alt="Katil hospital di bilik tidur rumah — sandaran kepala dinaikkan, pemandangan taman"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
