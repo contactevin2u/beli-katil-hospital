@@ -14,14 +14,14 @@ const badges: { Icon: IconType; label: string }[] = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white">
+    <section className="relative overflow-hidden bg-gradient-to-b from-accent-100 via-accent-50 to-white">
       <div className="container-x py-12 sm:py-20 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span className="pill">
             <StarOutline size={14} /> Dipercayai 5,000+ keluarga Malaysia sejak 2016
           </span>
           <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.05]">
-            <span className="text-brand-700">Katil Hospital</span> untuk Jaga Keluarga di Rumah
+            <span className="text-brand-700">Katil Hospital Malaysia</span>, Berkualiti & Berpatutan
           </h1>
           <p className="mt-5 text-lg text-slate-600 max-w-xl">
             Cari hospital bed yang betul-betul sesuai untuk jaga ibu ayah, recovery lepas

@@ -110,7 +110,7 @@ export function Products() {
                     <div className="text-xs text-slate-500">Sewa</div>
                     <div className="font-bold text-brand-700">{p.rentPrice}</div>
                   </div>
-                  <div className="rounded-xl bg-orange-50 p-3">
+                  <div className="rounded-xl bg-green-50 p-3">
                     <div className="text-xs text-slate-500">Beli</div>
                     <div className="font-bold text-accent-600">{p.buyPrice}</div>
                   </div>
