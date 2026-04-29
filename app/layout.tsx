@@ -5,11 +5,11 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'Hospital Bed Malaysia (Katil Hospital) — Buy or Rent for Home Care',
+    default: 'Beli Katil Hospital Malaysia | Sewa Mulai RM150/bulan',
     template: '%s | Beli Katil Hospital Malaysia'
   },
   description:
-    'Looking for a hospital bed in Malaysia for home care? Buy from RM799 or rent from RM150/month. Free delivery & setup, no deposit, MDA-registered. Trusted since 2016.',
+    'Cari katil hospital untuk jaga keluarga di rumah? Sewa mulai RM150/bulan atau beli mulai RM799. Hantar laju, pasang free, daftar MDA. Trusted sejak 2016.',
   keywords: [
     'beli katil hospital',
     'beli katil hospital Malaysia',
@@ -49,26 +49,26 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    locale: 'en_MY',
-    alternateLocale: ['ms_MY', 'zh_CN'],
+    locale: 'ms_MY',
+    alternateLocale: ['en_MY', 'zh_CN'],
     url: site.domain,
     siteName: site.brand,
-    title: 'Hospital Bed Malaysia | Try Renting First, Buy When You\'re Ready',
+    title: 'Beli Katil Hospital Malaysia — Sewa Dulu, Beli Kemudian',
     description:
-      'Hospital beds (katil hospital) made for real home care. Rent from RM150/month or buy from RM799 — same-day setup in Klang Valley, MDA-registered.',
+      'Katil hospital senang guna untuk jaga ibu ayah, lepas operation, atau pesakit terlantar. Sewa mulai RM150/bulan, beli mulai RM799. Hantar & pasang sendiri di rumah.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Hospital Bed Malaysia — Buy or Rent for Home Care'
+        alt: 'Beli Katil Hospital Malaysia — Sewa atau Beli untuk Jaga di Rumah'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hospital Bed Malaysia | Katil Hospital for Real Home Care',
-    description: 'Rent from RM150/month or buy from RM799. Same-day delivery, free setup, MDA-registered.',
+    title: 'Beli Katil Hospital Malaysia | Hospital Bed untuk Jaga di Rumah',
+    description: 'Sewa mulai RM150/bulan atau beli mulai RM799. Hantar laju, pasang free, daftar MDA.',
     images: ['/og-image.jpg']
   },
   robots: {
@@ -140,7 +140,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="en-MY">
+    <html lang="ms-MY">
       <head>
         <script
           type="application/ld+json"

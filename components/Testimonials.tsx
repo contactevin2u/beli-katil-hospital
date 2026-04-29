@@ -10,33 +10,33 @@ type Review = {
 const reviews: Review[] = [
   {
     name: 'Puan Aishah',
-    role: 'Daughter of stroke patient • Shah Alam',
+    role: 'Anak pesakit strok • Shah Alam',
     rating: 5,
-    body: 'My mum had a stroke last month. Ordered at 10am, the bed was delivered and installed by 2pm. The crew showed me how to operate it. Mum can now sit up to eat properly, and I don\'t have to keep lifting her — saves my back too.'
+    body: 'Mak saya kena strok bulan lepas. Order pukul 10 pagi, pukul 2 petang dah sampai dan dah pasang. Crew tunjuk saya cara guna remote semua. Mak senang nak duduk untuk makan, dan saya pun tak penat angkat-angkat dia sampai sakit pinggang.'
   },
   {
     name: 'Encik Tan',
-    role: 'Caring for his wife • Petaling Jaya',
+    role: 'Penjaga isteri • Petaling Jaya',
     rating: 5,
-    body: 'Worth every ringgit. Rented an electric bed for my wife who\'s going through cancer treatment. So much easier for her to sit up, and feeding her takes half the time. Quick service, honest pricing — no surprise charges later.'
+    body: 'Berbaloi sangat. Sewa katil elektrik untuk isteri yang tengah dalam rawatan kanser. Senang dia naik-turun, suap makan pun jadi cepat. Service quick, harga jujur — tak ada caj tersorok masuk bulan kedua.'
   },
   {
     name: 'Cikgu Faridah',
-    role: 'Daughter of elderly father • Kajang',
+    role: 'Anak warga emas • Kajang',
     rating: 5,
-    body: 'My 82-year-old father once fell off a regular bed. After switching to a hospital bed with side rails, alhamdulillah he sleeps soundly and feels safer. The whole family is at ease now.'
+    body: 'Ayah saya 82 tahun pernah jatuh dari katil biasa. Lepas tukar ke katil hospital ada side rail, alhamdulillah dia rasa lebih selamat dan tidur pun lena. Whole family sekarang dah lega sikit.'
   },
   {
     name: 'Mr. Arvind',
-    role: 'Post-surgery patient • Klang',
+    role: 'Pesakit lepas operation • Klang',
     rating: 5,
-    body: 'Recovery was so much smoother because I could adjust the bed to whatever position felt comfortable. Even my doctor was impressed. The team was patient and walked me through everything. Highly recommended!'
+    body: 'Recovery jadi lagi senang sebab boleh adjust katil ikut posisi yang selesa. Doktor pun puji bila datang follow-up. Crew sangat patient masa explain semua function. Highly recommended.'
   },
   {
     name: 'Puan Norliza',
-    role: 'Caring for her mother • Seremban',
+    role: 'Penjaga ibu • Seremban',
     rating: 5,
-    body: 'Started with a 2-month rental, then decided to just buy it. The rental I\'d already paid was deducted from the purchase price — so fair. The mattress came with it too, didn\'t need to hunt around. Clean, neat, looked brand new.'
+    body: 'Mula-mula sewa untuk 2 bulan, lepas tu decide nak beli terus. Bayaran sewa tu memang ditolak dari harga beli — fair betul. Tilam pun dah dapat sekali, tak payah cari sendiri. Bersih, kemas, macam baru.'
   }
 ];
 
@@ -56,18 +56,17 @@ export function Testimonials() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <MessageSquare size={14} /> What families say
+            <MessageSquare size={14} /> Apa kata family
           </span>
           <h2 className="section-title mt-3 flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-1">
               4.9 <Star size={28} className="text-amber-500" />
             </span>
-            <span>across 500+ genuine Google reviews</span>
+            <span>dari 500+ ulasan Google sebenar</span>
           </h2>
           <p className="section-sub">
-            Real Malaysian families, real situations — from strokes in Shah Alam, to post-surgery
-            recovery in Klang, to looking after elderly parents in Kajang. Here&apos;s what they had
-            to say:
+            Family Malaysia sebenar, situasi sebenar — dari strok di Shah Alam, recovery lepas
+            operation di Klang, sampai jaga warga emas di Kajang. Inilah pengalaman mereka:
           </p>
         </div>
 

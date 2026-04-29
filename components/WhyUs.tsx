@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const reasons: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Trophy,
-    title: 'A decade of focusing on home care',
-    body: 'Since 2016 we\'ve done one thing: helping Malaysian families care for their loved ones at home. Not a side hustle for a furniture shop — this is what we do every day, for over 5,000 families.'
+    title: '10+ tahun fokus pada home care',
+    body: 'Sejak 2016 kami buat satu benda je: bantu family Malaysia jaga orang tersayang di rumah. Bukan kerja sambilan kedai perabot — ni la kerja harian kami, untuk lebih 5,000 family setakat ni.'
   },
   {
     Icon: DollarSign,
-    title: 'Rent now, decide later — payments count',
-    body: 'Start from RM150/month with zero deposit. If you decide later that owning the bed makes more sense, every ringgit you\'ve paid goes towards the purchase. Plus 0% instalments up to 12 months on electric models.'
+    title: 'Sewa dulu, decide kemudian',
+    body: 'Mula dari RM150/bulan, no deposit. Kalau lepas tu rasa nak beli, semua bayaran sewa yang dah bayar tu kami tolak dari harga beli. Plus ansuran 0% sampai 12 bulan untuk model elektrik.'
   },
   {
     Icon: Bolt,
-    title: '4 hours in Klang Valley, 1–3 days nationwide',
-    body: 'Order before 2pm and we\'ll set up the bed within four hours across KL, Selangor and Putrajaya. For Sabah, Sarawak, Labuan and the rest of the peninsula, expect 1–3 working days with live tracking.'
+    title: 'Hantar laju seluruh Malaysia',
+    body: 'Order before 2 petang, kami setup dalam 4 jam untuk KL, Selangor, Putrajaya. Sabah, Sarawak, Labuan dan negeri lain — biasanya 1–3 hari kerja, dengan tracking penghantaran.'
   },
   {
     Icon: Phone,
-    title: 'Real support, even at 2am',
-    body: 'Bed playing up in the middle of the night? Patient stuck in an awkward position? Our emergency line is open 24/7 — including Raya, Chinese New Year, Deepavali. We\'ll send someone out.'
+    title: 'Support sebenar, walaupun pukul 2 pagi',
+    body: 'Katil rosak tengah malam? Pesakit tersangkut posisi awkward? Talian kecemasan kami buka 24/7 — termasuk Raya, CNY, Deepavali. Kami akan hantar orang sampai ke rumah.'
   },
   {
     Icon: Wrench,
-    title: 'We set it up. We show you the ropes.',
-    body: 'Our crew assembles the bed, demonstrates the controls, and walks the caregiver through diaper changes, transfers and pressure-sore prevention. Nobody leaves the session feeling lost.'
+    title: 'Kami pasang. Kami tunjuk cara guna.',
+    body: 'Crew kami datang, assemble katil, demo cara guna remote, dan walkthrough caregiver pasal tukar lampin, transfer pesakit, dan cara cegah lubang baring. Tak siapa balik dalam keadaan blur.'
   },
   {
     Icon: RefreshCw,
-    title: 'Done with the bed? We\'ll take it back',
-    body: 'When the time comes that you no longer need the bed, our trade-in scheme buys it back at a fair price — or swaps it for other equipment. No need to fight strangers on Mudah or Carousell.'
+    title: 'Dah tak guna katil? Kami beli balik',
+    body: 'Bila masa dah sampai untuk lepaskan katil tu, trade-in scheme kami beli balik dengan harga fair — atau tukar dengan equipment lain. Tak payah jual sendiri kat Mudah atau Carousell.'
   }
 ];
 
@@ -42,15 +42,15 @@ export function WhyUs() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <StarOutline size={14} /> Why families choose us
+            <StarOutline size={14} /> Kenapa pilih kami
           </span>
           <h2 className="section-title mt-3">
-            What sets us apart from a regular medical equipment shop
+            Apa yang beza kami dengan kedai medical equipment lain
           </h2>
           <p className="section-sub">
-            Plenty of places in Malaysia will sell you a hospital bed. The difference: we live and
-            breathe home care, not perabot. When your family needs help at the worst hour of the
-            night — we're the ones picking up the phone.
+            Banyak tempat boleh jual katil hospital di Malaysia. Beza kami: home care ni memang
+            fokus utama, bukan side hustle dari kedai perabot. Bila family anda dalam keadaan
+            susah malam-malam — kami yang akan angkat phone.
           </p>
         </div>
 

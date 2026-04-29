@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const benefits: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: ShieldCheck,
-    title: 'Lower risk of hospital-acquired infections',
-    body: 'Studies put hospital-acquired infection rates in Southeast Asia at around 21.6%. Recovering at home — in a clean bed used only by your loved one — keeps that exposure right down.'
+    title: 'Kurangkan risiko jangkitan hospital',
+    body: 'Kajian tunjuk sampai 21.6% pesakit di Asia Tenggara dapat hospital infection masa rawatan. Recover di rumah — dalam katil yang bersih dan guna oleh sorang je — exposure tu turun banyak.'
   },
   {
     Icon: Bandage,
-    title: 'Prevent painful pressure sores',
-    body: 'About 1 in 7 patients who stay in bed for more than two weeks develop bedsores. An air mattress and being repositioned every couple of hours can cut that risk by up to 80%.'
+    title: 'Cegah lubang baring (pressure sore)',
+    body: 'Pesakit yang terlantar lebih 2 minggu, 1 dari 7 akan kena lubang baring. Air mattress + ubah posisi tiap 2 jam boleh cut risiko sampai 80%.'
   },
   {
     Icon: Bone,
-    title: 'Side rails to keep them from falling',
-    body: 'Full-length safety rails are shown to reduce in-bed falls by up to 55% — a big deal for elderly parents, stroke patients and anyone with dementia.'
+    title: 'Side rail elak pesakit jatuh',
+    body: 'Pagar sisi penuh terbukti reduce kes jatuh dari katil sampai 55% — sangat penting untuk warga emas, pesakit strok, atau yang ada dementia.'
   },
   {
     Icon: Dumbbell,
-    title: 'Easier on the caregiver\'s back',
-    body: 'Adjustable bed height means no more bending over to change diapers, sponge-bathe or transfer. About 60% of long-term caregivers end up with back pain — this design helps prevent it.'
+    title: 'Selamatkan belakang caregiver',
+    body: 'Tinggi katil boleh adjust = penjaga tak payah membongkok lama-lama untuk tukar lampin atau transfer pesakit. Sekitar 60% caregiver jangka panjang mengalami sakit pinggang — design ni bantu elak.'
   },
   {
     Icon: Soup,
-    title: 'Safer mealtimes',
-    body: 'Tilting the headrest to 30–45° helps the patient swallow safely and reduces choking. That matters a lot for elderly and stroke patients, who are prone to aspiration pneumonia.'
+    title: 'Makan & minum lebih selamat',
+    body: 'Sandaran kepala 30°–45° elak tersedak dan aspiration — punca utama radang paru-paru kalangan warga emas dan pesakit strok.'
   },
   {
     Icon: Sparkles,
-    title: 'Daily care, made simpler',
-    body: 'Bed baths, diaper changes, fresh sheets, gentle massages — all of it goes faster on a height-adjustable bed with locking wheels. One caregiver can handle it without breaking a sweat.'
+    title: 'Routine harian jadi lagi senang',
+    body: 'Mandi katil, tukar lampin, ganti cadar, urut — semua jadi 3x lebih cepat dengan katil yang boleh adjust dan roda berkunci. Sorang caregiver pun mampu handle.'
   }
 ];
 
@@ -42,13 +42,13 @@ export function Benefits() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Heart size={14} /> Why it matters
+            <Heart size={14} /> Kenapa penting
           </span>
-          <h2 className="section-title mt-3">A regular bed isn't really built for this</h2>
+          <h2 className="section-title mt-3">Katil biasa memang tak built untuk situasi macam ni</h2>
           <p className="section-sub">
-            Most families only realise this after a fall, a bad bedsore, or a caregiver throwing
-            out their back. A proper hospital bed (katil pesakit) at home prevents the small
-            problems that quietly turn into big hospital bills:
+            Banyak family baru perasan benda ni lepas pesakit jatuh, dah ada lubang baring, atau
+            caregiver pulak yang sakit pinggang. Hospital bed di rumah elak masalah-masalah small
+            yang boleh jadi besar — dan mahal:
           </p>
         </div>
 
