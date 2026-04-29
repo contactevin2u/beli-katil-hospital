@@ -138,12 +138,9 @@ export function OtherProducts() {
               </div>
               <div className="rounded-xl bg-green-50 p-4">
                 <div className="text-xs text-slate-500">Beli</div>
-                <div className="text-xl font-extrabold text-accent-600">RM4,500</div>
-                <div className="text-xs text-slate-500 mt-0.5">Atau RM4,900 dengan full mask set</div>
+                <div className="text-xl font-extrabold text-accent-600">Mulai RM4,500</div>
+                <div className="text-xs text-slate-500 mt-0.5">Pilihan ansuran tersedia</div>
               </div>
-            </div>
-            <div className="mt-3 text-xs text-slate-500">
-              <strong className="text-slate-700">Pilihan ansuran 0%:</strong> RM410 × 12 bulan atau RM790 × 6 bulan
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
