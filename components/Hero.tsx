@@ -14,20 +14,20 @@ const badges: { Icon: IconType; label: string }[] = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-accent-100 via-accent-50 to-white">
+    <section className="relative overflow-hidden bg-brand-700 text-white">
       <div className="container-x py-12 sm:py-20 grid lg:grid-cols-2 gap-10 items-center">
         <div>
-          <span className="pill">
+          <span className="pill !bg-white/15 !text-white">
             <StarOutline size={14} /> Dipercayai 5,000+ keluarga Malaysia sejak 2016
           </span>
-          <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.05]">
-            <span className="text-brand-700">Katil Hospital Malaysia</span>, Berkualiti & Berpatutan
+          <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-[1.05]">
+            <span className="text-accent-300">Katil Hospital Malaysia</span>, Berkualiti & Berpatutan
           </h1>
-          <p className="mt-5 text-lg text-slate-600 max-w-xl">
+          <p className="mt-5 text-lg text-brand-100 max-w-xl">
             Cari hospital bed yang betul-betul sesuai untuk jaga ibu ayah, recovery lepas
             operation, atau pesakit terlantar? Kami bantu families seluruh Malaysia pilih katil
-            yang berbaloi — <strong>sewa mulai RM150/bulan</strong> atau{' '}
-            <strong>beli mulai RM799</strong>. Hantar laju, pasang sendiri di rumah, no deposit.
+            yang berbaloi — <strong className="text-white">sewa mulai RM150/bulan</strong> atau{' '}
+            <strong className="text-white">beli mulai RM799</strong>. Hantar laju, pasang sendiri di rumah, no deposit.
           </p>
 
           <div className="mt-7 flex flex-col sm:flex-row gap-3">
@@ -51,18 +51,18 @@ export function Hero() {
             ))}
           </div>
 
-          <div className="mt-6 flex items-center gap-4 text-sm text-slate-500">
+          <div className="mt-6 flex items-center gap-4 text-sm text-brand-100">
             <div className="flex -space-x-2">
               {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="h-8 w-8 rounded-full bg-gradient-to-br from-brand-300 to-brand-600 border-2 border-white" />
+                <div key={i} className="h-8 w-8 rounded-full bg-gradient-to-br from-accent-300 to-accent-500 border-2 border-brand-700" />
               ))}
             </div>
             <div>
-              <div className="flex items-center gap-1 text-amber-500">
+              <div className="flex items-center gap-1 text-amber-400">
                 {[0, 1, 2, 3, 4].map((i) => (
                   <Star key={i} size={14} />
                 ))}
-                <span className="ml-1 text-slate-700 font-semibold">4.9/5</span>
+                <span className="ml-1 text-white font-semibold">4.9/5</span>
               </div>
               <div className="text-xs">500+ ulasan Google • Family Malaysia sebenar</div>
             </div>
