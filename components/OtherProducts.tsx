@@ -17,17 +17,17 @@ import type { ComponentType, SVGProps } from 'react';
 type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string }>;
 
 const cpapFeatures = [
-  'Mask, tubing & humidifier termasuk',
-  'AutoCPAP & BiPAP tersedia',
-  'Set-up + latihan guna PERCUMA di rumah',
-  'Servis & sokongan teknikal 24/7',
-  'Sewa dulu, beli kemudian — bayaran sewa ditolak'
+  'Mask, tubing and humidifier — all included',
+  'AutoCPAP and BiPAP options available',
+  'Setup and how-to walkthrough at your home',
+  'Servicing and tech support around the clock',
+  'Rent first, buy later — rental payments count towards purchase'
 ];
 
 const cpapSigns = [
-  { Icon: Moon as IconType, label: 'Berdengkur kuat tiap malam' },
-  { Icon: Activity as IconType, label: 'Tersedu / tercungap waktu tidur' },
-  { Icon: Wind as IconType, label: 'Letih siang walaupun cukup tidur' }
+  { Icon: Moon as IconType, label: 'Heavy snoring most nights' },
+  { Icon: Activity as IconType, label: 'Choking or gasping while asleep' },
+  { Icon: Wind as IconType, label: 'Tired all day even after a full night\'s sleep' }
 ];
 
 type OtherItem = {
@@ -41,24 +41,24 @@ type OtherItem = {
 const otherItems: OtherItem[] = [
   {
     Icon: Droplet,
-    title: 'Mesin Oksigen Rumah',
-    desc: 'Concentrator 5L/min & 10L/min — COPD, post-Covid, pesakit kanser',
-    price: 'Sewa dari RM350/bulan',
-    waMessage: 'Hai, saya nak tanya pasal mesin oksigen. Boleh terangkan lebih lanjut?'
+    title: 'Home Oxygen Concentrator',
+    desc: '5L/min and 10L/min units — for COPD, post-Covid, cancer patients',
+    price: 'Rent from RM350/month',
+    waMessage: 'Hi, I\'d like to ask about the oxygen machine. Can you share more details?'
   },
   {
     Icon: Bed,
-    title: 'Tilam Anti-Lubang Baring',
-    desc: 'Tilam udara (air mattress) + pump untuk pesakit terlantar lama',
-    price: 'Sewa dari RM120/bulan',
-    waMessage: 'Hai, saya nak tanya pasal tilam anti-lubang baring (air mattress). Boleh terangkan lebih lanjut?'
+    title: 'Anti-Bedsore Air Mattress',
+    desc: 'Alternating-pressure air mattress and pump for long-term bed care',
+    price: 'Rent from RM120/month',
+    waMessage: 'Hi, I\'d like to ask about the anti-bedsore air mattress. Can you tell me more?'
   },
   {
     Icon: Accessibility,
-    title: 'Kerusi Roda & Walker',
-    desc: 'Wheelchair manual, elektrik & walker untuk pemulihan post-surgery',
-    price: 'Sewa dari RM80/bulan',
-    waMessage: 'Hai, saya nak tanya pasal kerusi roda / walker. Boleh terangkan lebih lanjut?'
+    title: 'Wheelchairs & Walkers',
+    desc: 'Manual or electric wheelchairs and walkers for post-surgery mobility',
+    price: 'Rent from RM80/month',
+    waMessage: 'Hi, I\'d like to ask about wheelchairs and walkers. Can you tell me more?'
   }
 ];
 
@@ -71,15 +71,15 @@ export function OtherProducts() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Sparkles size={14} /> Peralatan Penjagaan Rumah
+            <Sparkles size={14} /> Home medical equipment
           </span>
           <h2 className="section-title mt-3">
-            Selain Katil Hospital — Kami Juga <span className="text-brand-700">Pakar CPAP</span> Malaysia
+            Beyond Beds — <span className="text-brand-700">CPAP, Oxygen</span> & Other Home Care Gear
           </h2>
           <p className="section-sub">
-            One-stop centre untuk peralatan perubatan rumah: mesin CPAP/BiPAP untuk sleep apnea,
-            mesin oksigen, tilam anti-lubang baring, kerusi roda & walker. Servis, penghantaran &
-            sokongan teknikal yang sama tahap dengan katil hospital kami.
+            Most families need more than just the bed. We're a one-stop shop for home medical
+            equipment in Malaysia: CPAP and BiPAP machines for sleep apnea, oxygen concentrators,
+            air mattresses, wheelchairs and walkers — same delivery, same support, same standards.
           </p>
         </div>
 
@@ -91,24 +91,24 @@ export function OtherProducts() {
               </span>
               <div>
                 <span className="inline-block bg-accent-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">
-                  Baharu
+                  New
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-                  CPAP / BiPAP Machine
+                  CPAP & BiPAP Machines
                 </h3>
               </div>
             </div>
 
             <p className="mt-5 text-slate-600 leading-relaxed">
-              Mesin CPAP & BiPAP untuk pesakit <strong>Sleep Apnea (OSA)</strong> dan gangguan
-              pernafasan waktu tidur. Pernafasan stabil sepanjang malam — bukan setakat hentikan
-              dengkuran, tapi elak komplikasi serius seperti darah tinggi, sakit jantung dan strok
-              jangka panjang.
+              For people with <strong>Sleep Apnea (OSA)</strong> or trouble breathing during sleep.
+              A CPAP gives you steady airflow through the night — it's not just about stopping the
+              snoring, but lowering long-term risks like high blood pressure, heart disease and
+              stroke.
             </p>
 
             <div className="mt-6 rounded-2xl bg-slate-50 border border-slate-100 p-5">
               <div className="text-xs font-bold uppercase tracking-wide text-slate-500">
-                5 tanda anda atau ahli keluarga perlukan CPAP
+                Signs you (or someone at home) might need a CPAP
               </div>
               <div className="mt-3 grid sm:grid-cols-3 gap-3">
                 {cpapSigns.map(({ Icon, label }) => (
@@ -132,29 +132,29 @@ export function OtherProducts() {
 
             <div className="mt-7 grid sm:grid-cols-2 gap-3">
               <div className="rounded-xl bg-brand-50 p-4">
-                <div className="text-xs text-slate-500">Sewa</div>
-                <div className="text-xl font-extrabold text-brand-700">RM250/bulan</div>
-                <div className="text-xs text-slate-500 mt-0.5">Termasuk mask & humidifier</div>
+                <div className="text-xs text-slate-500">Rent</div>
+                <div className="text-xl font-extrabold text-brand-700">RM250/month</div>
+                <div className="text-xs text-slate-500 mt-0.5">Mask and humidifier included</div>
               </div>
               <div className="rounded-xl bg-orange-50 p-4">
-                <div className="text-xs text-slate-500">Beli</div>
-                <div className="text-xl font-extrabold text-accent-600">Mulai RM2,499</div>
-                <div className="text-xs text-slate-500 mt-0.5">Ansuran 0% sehingga 12 bulan</div>
+                <div className="text-xs text-slate-500">Buy</div>
+                <div className="text-xl font-extrabold text-accent-600">From RM2,499</div>
+                <div className="text-xs text-slate-500 mt-0.5">0% instalments up to 12 months</div>
               </div>
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
               <a
-                href={waLink('Hai, saya nak konsultasi percuma pasal CPAP / BiPAP machine. Boleh bantu?')}
+                href={waLink('Hi, I\'d like a free CPAP/BiPAP consultation. Can you help?')}
                 target="_blank"
                 rel="noopener"
                 className="btn-primary text-sm"
               >
                 <WhatsApp size={18} />
-                Konsultasi CPAP Percuma
+                Free CPAP consultation
               </a>
               <a href={telLink} className="btn-secondary text-sm">
-                <Phone size={16} /> Tel: {site.phone}
+                <Phone size={16} /> Call {site.phone}
               </a>
             </div>
           </div>
@@ -163,7 +163,7 @@ export function OtherProducts() {
             <div className="relative aspect-square rounded-2xl overflow-hidden mb-6 shadow-soft ring-1 ring-white/15">
               <Image
                 src="/images/cpap-machine.png"
-                alt="CPAP machine ResMed AirStart 10 di atas meja"
+                alt="ResMed AirStart 10 CPAP machine on a bedside table"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
@@ -172,24 +172,24 @@ export function OtherProducts() {
             <div className="space-y-4">
               <div className="rounded-2xl bg-white/10 border border-white/15 p-4">
                 <div className="text-xs uppercase tracking-wide text-brand-100">
-                  Trial percuma
+                  Free home trial
                 </div>
                 <div className="font-bold text-white mt-1">
-                  Cuba CPAP 7 hari di rumah
+                  Try CPAP at home for 7 days
                 </div>
                 <div className="text-xs text-brand-100 mt-1">
-                  Tak selesa? Pulangkan, tiada penalti.
+                  Doesn't suit you? Send it back. No penalty.
                 </div>
               </div>
               <div className="rounded-2xl bg-white/10 border border-white/15 p-4">
                 <div className="text-xs uppercase tracking-wide text-brand-100">
-                  Brand yang kami bekal
+                  Brands we carry
                 </div>
                 <div className="font-bold text-white mt-1">
                   ResMed • Philips • BMC • Yuwell
                 </div>
                 <div className="text-xs text-brand-100 mt-1">
-                  Semua unit asli & berdaftar MDA.
+                  All units genuine and registered with MDA Malaysia.
                 </div>
               </div>
             </div>
@@ -198,14 +198,14 @@ export function OtherProducts() {
 
         <div className="mt-12">
           <div className="flex items-end justify-between flex-wrap gap-2">
-            <h3 className="text-lg font-bold text-slate-900">Peralatan Perubatan Rumah Lain</h3>
+            <h3 className="text-lg font-bold text-slate-900">Other home medical equipment</h3>
             <a
-              href={waLink('Hai, saya nak tanya pasal peralatan perubatan rumah selain katil. Boleh bantu?')}
+              href={waLink('Hi, I\'d like to ask about other home medical equipment besides the bed. Can you help?')}
               target="_blank"
               rel="noopener"
               className="text-sm font-semibold text-brand-700 hover:text-brand-800"
             >
-              Tanya peralatan lain →
+              Ask about other equipment →
             </a>
           </div>
           <div className="mt-4 grid sm:grid-cols-3 gap-4">

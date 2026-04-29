@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const reasons: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Trophy,
-    title: '10+ Tahun Khusus Katil Hospital',
-    body: 'Sejak 2016 kami fokus 100% pada penjagaan pesakit di rumah — bukan kedai perabot yang jual sekali sekala. 5,000+ keluarga Malaysia dah percayakan kami untuk situasi yang paling kritikal.'
+    title: 'A decade of focusing on home care',
+    body: 'Since 2016 we\'ve done one thing: helping Malaysian families care for their loved ones at home. Not a side hustle for a furniture shop — this is what we do every day, for over 5,000 families.'
   },
   {
     Icon: DollarSign,
-    title: 'Sewa Dulu, Beli Kemudian (Bayaran Ditolak)',
-    body: 'Tak komited. Sewa dari RM150/bulan — kalau dah selesa nak beli, bayaran sewa ditolak 100% dari harga beli. Ansuran 0% sehingga 12 bulan untuk model elektrik. Tiada deposit, tiada hidden fee.'
+    title: 'Rent now, decide later — payments count',
+    body: 'Start from RM150/month with zero deposit. If you decide later that owning the bed makes more sense, every ringgit you\'ve paid goes towards the purchase. Plus 0% instalments up to 12 months on electric models.'
   },
   {
     Icon: Bolt,
-    title: 'Hantar 4 Jam Lembah Klang, 1–3 Hari Seluruh Malaysia',
-    body: 'Tempah sebelum 2 petang — kami pasang siap di rumah dalam 4 jam untuk KL, Selangor, Putrajaya. Sabah, Sarawak, Labuan & Semenanjung lain dalam 1–3 hari, dengan penjejakan penghantaran.'
+    title: '4 hours in Klang Valley, 1–3 days nationwide',
+    body: 'Order before 2pm and we\'ll set up the bed within four hours across KL, Selangor and Putrajaya. For Sabah, Sarawak, Labuan and the rest of the peninsula, expect 1–3 working days with live tracking.'
   },
   {
     Icon: Phone,
-    title: 'Sokongan Teknikal 24/7 Walaupun Cuti Umum',
-    body: 'Katil rosak pukul 2 pagi? Pesakit tersangkut posisi? Talian kecemasan kami buka 24 jam, 7 hari seminggu. Pasukan teknikal sedia datang ke rumah, walaupun Hari Raya atau Tahun Baru Cina.'
+    title: 'Real support, even at 2am',
+    body: 'Bed playing up in the middle of the night? Patient stuck in an awkward position? Our emergency line is open 24/7 — including Raya, Chinese New Year, Deepavali. We\'ll send someone out.'
   },
   {
     Icon: Wrench,
-    title: 'Pasang & Latih Penjaga di Rumah PERCUMA',
-    body: 'Kami pasang sendiri, demo cara naik-turun pesakit, ajar tukar lampin tanpa sakit belakang, dan tunjuk cara cegah lubang baring. Penjaga keluar dari sesi ini lebih yakin — bukan blur.'
+    title: 'We set it up. We show you the ropes.',
+    body: 'Our crew assembles the bed, demonstrates the controls, and walks the caregiver through diaper changes, transfers and pressure-sore prevention. Nobody leaves the session feeling lost.'
   },
   {
     Icon: RefreshCw,
-    title: 'Program Trade-In: Kami Beli Balik',
-    body: 'Bila katil tak diperlukan lagi, kami beli balik dengan harga berpatutan atau tukar dengan model lain. Tak buang sia-sia, tak perlu cari pembeli sendiri di Mudah/Carousell.'
+    title: 'Done with the bed? We\'ll take it back',
+    body: 'When the time comes that you no longer need the bed, our trade-in scheme buys it back at a fair price — or swaps it for other equipment. No need to fight strangers on Mudah or Carousell.'
   }
 ];
 
@@ -42,15 +42,15 @@ export function WhyUs() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <StarOutline size={14} /> Kenapa Pilih Kami
+            <StarOutline size={14} /> Why families choose us
           </span>
           <h2 className="section-title mt-3">
-            Kenapa 5,000+ Keluarga Pilih BeliKatilHospital.my Berbanding Kedai Lain
+            What sets us apart from a regular medical equipment shop
           </h2>
           <p className="section-sub">
-            Banyak kedai jual katil hospital di Malaysia. Beza kami: kami fokus 100% pada
-            penjagaan pesakit di rumah, bukan jual perabot sebagai sampingan. Bila keluarga anda
-            paling perlukan bantuan — kami yang akan jawab telefon.
+            Plenty of places in Malaysia will sell you a hospital bed. The difference: we live and
+            breathe home care, not perabot. When your family needs help at the worst hour of the
+            night — we're the ones picking up the phone.
           </p>
         </div>
 

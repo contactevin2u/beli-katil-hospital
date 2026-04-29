@@ -24,14 +24,14 @@ export function Coverage() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <MapPin size={14} /> Liputan Penghantaran
+            <MapPin size={14} /> Delivery zones
           </span>
-          <h2 className="section-title mt-3">Beli & Sewa Katil Hospital — Liputan Seluruh Malaysia</h2>
+          <h2 className="section-title mt-3">From KL to Kota Kinabalu — we deliver nationwide</h2>
           <p className="section-sub">
-            Hub utama di Batu Caves (Selangor) dan cawangan di Kota Kinabalu (Sabah). Penghantaran
-            kami sampai ke 14 negeri + W.P. Labuan: <strong>4 jam</strong> untuk Lembah Klang,{' '}
-            <strong>1–3 hari</strong> untuk negeri lain — termasuk pulau seperti Langkawi & Pulau
-            Pinang.
+            Main hub in Batu Caves (Selangor), with a branch in Kota Kinabalu (Sabah). We cover all
+            14 states plus W.P. Labuan: <strong>4 hours</strong> across the Klang Valley,{' '}
+            <strong>1–3 working days</strong> for the rest — yes, including islands like Langkawi
+            and Penang.
           </p>
         </div>
 

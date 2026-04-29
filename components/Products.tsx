@@ -17,46 +17,46 @@ const products: Product[] = [
   {
     id: 'standard-2f',
     name: 'Standard 2-Function',
-    tagline: 'Katil Hospital Manual 2-Fungsi',
-    rentPrice: 'RM150/bulan',
+    tagline: 'Manual hospital bed — simple, solid, reliable',
+    rentPrice: 'RM150/month',
     buyPrice: 'RM799',
     features: [
-      'Sandaran kepala boleh laras (untuk makan & baca)',
-      'Sandaran kaki boleh laras (lega untuk lutut)',
-      'Pagar sisi penuh — cegah pesakit jatuh',
-      'Roda berkunci — selamat & senang gerak',
-      'Tahan beban sehingga 200kg'
+      'Headrest tilts up — easy for meals and reading',
+      'Footrest lifts — takes pressure off the knees',
+      'Full-length side rails to prevent falls',
+      'Lockable wheels — move it, then keep it steady',
+      'Holds up to 200kg, sturdy steel frame'
     ],
     image: { src: '/images/katil-2-function.webp', width: 420, height: 420 }
   },
   {
     id: 'flexi-3f',
     name: 'Flexi 3-Function',
-    tagline: 'Pilihan #1 — Katil Hospital 3-Fungsi Boleh Laras Tinggi',
-    rentPrice: 'RM250/bulan',
+    tagline: 'Most popular — adjustable height saves the caregiver\'s back',
+    rentPrice: 'RM250/month',
     buyPrice: 'RM1,349',
-    badge: 'Paling Laris',
+    badge: 'Top pick',
     features: [
-      'Sandaran kepala + kaki boleh laras',
-      'Tinggi katil naik-turun (lindungi belakang penjaga)',
-      'Pemindahan pesakit lebih mudah & selamat',
-      'Pagar sisi keselamatan penuh',
-      'PERCUMA tilam ortopedik anti-lubang baring'
+      'Tilts at head and feet, plus the whole bed goes up and down',
+      'Caregivers can change diapers without bending — back saver',
+      'Easier patient transfers (wheelchair to bed and back)',
+      'Full safety side rails',
+      'Orthopaedic anti-bedsore mattress included free'
     ],
     image: { src: '/images/katil-3-function.webp', width: 560, height: 560 }
   },
   {
     id: 'ultra-electric',
     name: 'Ultra Electric 6-Function',
-    tagline: 'Katil Hospital Elektrik 6-Fungsi (Gred ICU)',
-    rentPrice: 'RM715/bulan (ansuran)',
+    tagline: 'Fully motorised — for serious long-term bed care',
+    rentPrice: 'RM715/month (instalment)',
     buyPrice: 'RM5,500',
     features: [
-      'Kawalan jauh — 1 butang, satu orang penjaga cukup',
-      '6 fungsi pelarasan automatik',
-      'Mod Trendelenburg (untuk kes kritikal)',
-      'Bateri sandaran — tetap berfungsi waktu blackout',
-      'Tilam udara anti-lubang baring (bedsore) disertakan'
+      'Remote control — one button, one caregiver, no struggle',
+      'Six positions you can fine-tune for comfort',
+      'Trendelenburg mode for medical emergencies',
+      'Battery backup — keeps working through power cuts',
+      'Comes with air mattress to prevent pressure ulcers'
     ],
     image: { src: '/images/katil-elektrik.webp', width: 420, height: 420 }
   }
@@ -68,14 +68,13 @@ export function Products() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Bed size={14} /> Pakej Katil Hospital
+            <Bed size={14} /> Our beds
           </span>
-          <h2 className="section-title mt-3">Harga Katil Hospital Malaysia — Pilih Ikut Tahap Penjagaan</h2>
+          <h2 className="section-title mt-3">Three Beds. One Promise: Built for Home Care.</h2>
           <p className="section-sub">
-            Tiga pakej katil hospital, satu standard kualiti — gred hospital, berdaftar MDA.
-            Daripada katil manual asas untuk pesakit ringan, sehingga katil elektrik 6-fungsi untuk
-            pesakit terlantar berat. <strong>Sewa</strong> atau <strong>beli</strong> — pemasangan
-            & latihan penjaga termasuk PERCUMA.
+            From a basic manual bed for light recovery, to a full electric bed for long-term
+            patients — every model meets MDA medical-device standards. <strong>Rent</strong> or{' '}
+            <strong>buy</strong>, with installation and caregiver training included on the house.
           </p>
         </div>
 
@@ -107,11 +106,11 @@ export function Products() {
 
                 <div className="mt-4 grid grid-cols-2 gap-2 text-center">
                   <div className="rounded-xl bg-brand-50 p-3">
-                    <div className="text-xs text-slate-500">Sewa</div>
+                    <div className="text-xs text-slate-500">Rent</div>
                     <div className="font-bold text-brand-700">{p.rentPrice}</div>
                   </div>
                   <div className="rounded-xl bg-orange-50 p-3">
-                    <div className="text-xs text-slate-500">Beli</div>
+                    <div className="text-xs text-slate-500">Buy</div>
                     <div className="font-bold text-accent-600">{p.buyPrice}</div>
                   </div>
                 </div>
@@ -125,12 +124,12 @@ export function Products() {
                 </ul>
 
                 <a
-                  href={waLink(`Hai, saya berminat dengan katil ${p.name}. Boleh terangkan lebih lanjut?`)}
+                  href={waLink(`Hi, I'm keen on the ${p.name} bed. Could you tell me more?`)}
                   target="_blank"
                   rel="noopener"
                   className="btn-primary mt-6 w-full !px-4 text-sm"
                 >
-                  Tanya di WhatsApp
+                  Ask about this bed
                 </a>
               </div>
             </article>
@@ -143,17 +142,18 @@ export function Products() {
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/15">
                 <Lightbulb size={20} />
               </span>
-              <h3 className="text-2xl font-bold">Sewa Katil Hospital Dulu, Beli Kemudian</h3>
+              <h3 className="text-2xl font-bold">Try renting first. Buy when you're sure.</h3>
             </div>
             <p className="mt-3 text-brand-100">
-              Tak pasti pesakit perlu katil berapa lama? Sewa dulu — kalau lepas beberapa bulan
-              keluarga rasa berbaloi nak miliki, <strong className="text-white">100% bayaran sewa
-              ditolak dari harga beli</strong>. Tiada deposit, tiada caj tersembunyi, tiada lock-in.
+              Not sure how long you'll need the bed? Start with a monthly rental — if your family
+              decides to keep it later, <strong className="text-white">every ringgit you've paid in
+              rent goes towards the purchase price</strong>. No deposit, no lock-in, no awkward
+              cancellation charges.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan + latihan penjaga di rumah PERCUMA</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis, baiki & tukar parts PERCUMA sepanjang sewa</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal bila-bila masa lepas bulan pertama</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Delivery, setup and caregiver walkthrough — included</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servicing and replacement parts during rental — covered</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Cancel anytime after the first month, no penalty</li>
             </ul>
           </div>
           <div id="beli" className="rounded-3xl bg-white border border-slate-100 p-8 shadow-soft">
@@ -161,17 +161,17 @@ export function Products() {
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-accent-50 text-accent-600">
                 <Tag size={20} />
               </span>
-              <h3 className="text-2xl font-bold text-slate-900">Beli Katil Hospital Terus & Jimat Lebih</h3>
+              <h3 className="text-2xl font-bold text-slate-900">Buy outright. Save more long-term.</h3>
             </div>
             <p className="mt-3 text-slate-600">
-              Untuk kes jangka panjang (lebih 6 bulan) atau penjagaan kekal warga emas — beli terus
-              lebih jimat berbanding sewa. Bayaran ansuran 0% sehingga 12 bulan untuk model elektrik,
-              kelulusan dalam beberapa minit.
+              For long-term cases — say six months or more, or full-time elderly care — owning the
+              bed works out cheaper than renting. Spread the cost with 0% instalments up to 12
+              months on electric models, approved in minutes over WhatsApp.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-slate-700">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti rangka 2 tahun, motor 1 tahun</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Program trade-in — kami beli balik bila tak guna</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran 0% sehingga 12 bulan (model elektrik)</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> 2-year warranty on the frame, 1 year on the motor</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Trade-in scheme — we buy it back when you're done</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> 0% instalments up to 12 months (electric models)</li>
             </ul>
           </div>
         </div>

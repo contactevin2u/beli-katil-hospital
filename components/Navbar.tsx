@@ -3,12 +3,12 @@ import { site, waLink, telLink } from '@/lib/site';
 import { Phone, WhatsApp } from './Icon';
 
 const navItems = [
-  { href: '#produk', label: 'Produk' },
-  { href: '#peralatan-lain', label: 'CPAP & Lain' },
-  { href: '#sewa', label: 'Sewa' },
-  { href: '#beli', label: 'Beli' },
-  { href: '#kelebihan', label: 'Kelebihan' },
-  { href: '#liputan', label: 'Liputan' },
+  { href: '#produk', label: 'Beds' },
+  { href: '#peralatan-lain', label: 'CPAP & More' },
+  { href: '#sewa', label: 'Rent' },
+  { href: '#beli', label: 'Buy' },
+  { href: '#kelebihan', label: 'Why It Matters' },
+  { href: '#liputan', label: 'Delivery' },
   { href: '#faq', label: 'FAQ' }
 ];
 

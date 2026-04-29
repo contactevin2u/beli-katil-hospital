@@ -1,10 +1,10 @@
 import { Star } from './Icon';
 
 const stats = [
-  { value: '5,000+', label: 'Keluarga Malaysia Dilayan' },
-  { value: '10+', label: 'Tahun Pakar Katil Hospital' },
-  { value: '4.9', label: 'Rating Google (500+ ulasan)', star: true },
-  { value: '24/7', label: 'Sokongan Teknikal Kecemasan' }
+  { value: '5,000+', label: 'Malaysian families served' },
+  { value: '10+', label: 'Years in home care beds' },
+  { value: '4.9', label: 'Google rating (500+ reviews)', star: true },
+  { value: '24/7', label: 'Emergency support line' }
 ];
 
 export function TrustBar() {

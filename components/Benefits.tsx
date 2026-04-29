@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const benefits: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: ShieldCheck,
-    title: 'Kurangkan Risiko Jangkitan Hospital (HAI)',
-    body: 'Sehingga 21.6% pesakit di Asia Tenggara dijangkiti Hospital-Acquired Infections semasa rawatan. Penjagaan di rumah dengan katil hospital sendiri kurangkan pendedahan ini secara drastik.'
+    title: 'Lower risk of hospital-acquired infections',
+    body: 'Studies put hospital-acquired infection rates in Southeast Asia at around 21.6%. Recovering at home — in a clean bed used only by your loved one — keeps that exposure right down.'
   },
   {
     Icon: Bandage,
-    title: 'Cegah Lubang Baring (Pressure Ulcer)',
-    body: '1 dari 7 pesakit terlantar lebih 2 minggu akan dapat lubang baring. Tilam udara + pelarasan posisi setiap 2 jam pada katil hospital kurangkan risiko ini sehingga 80%.'
+    title: 'Prevent painful pressure sores',
+    body: 'About 1 in 7 patients who stay in bed for more than two weeks develop bedsores. An air mattress and being repositioned every couple of hours can cut that risk by up to 80%.'
   },
   {
     Icon: Bone,
-    title: 'Cegah Jatuh dengan Pagar Sisi (Side Rail)',
-    body: 'Side rail penuh pada katil hospital terbukti kurangkan kejadian jatuh dari katil sehingga 55% — kritikal untuk warga emas, pesakit strok dan pesakit nyanyuk (dementia).'
+    title: 'Side rails to keep them from falling',
+    body: 'Full-length safety rails are shown to reduce in-bed falls by up to 55% — a big deal for elderly parents, stroke patients and anyone with dementia.'
   },
   {
     Icon: Dumbbell,
-    title: 'Selamatkan Belakang Penjaga (Caregiver)',
-    body: 'Tinggi katil boleh dilaras = penjaga tak perlu membongkok untuk tukar lampin, mandi atau pemindahan. Elak slipped disc dan sakit pinggang kronik yang melanda 60% penjaga jangka panjang.'
+    title: 'Easier on the caregiver\'s back',
+    body: 'Adjustable bed height means no more bending over to change diapers, sponge-bathe or transfer. About 60% of long-term caregivers end up with back pain — this design helps prevent it.'
   },
   {
     Icon: Soup,
-    title: 'Suapan & Minum Lebih Selamat',
-    body: 'Sandaran kepala 30°–45° elakkan tersedak dan aspirasi — punca utama radang paru-paru (aspiration pneumonia) dalam kalangan pesakit warga emas dan pesakit strok.'
+    title: 'Safer mealtimes',
+    body: 'Tilting the headrest to 30–45° helps the patient swallow safely and reduces choking. That matters a lot for elderly and stroke patients, who are prone to aspiration pneumonia.'
   },
   {
     Icon: Sparkles,
-    title: 'Permudahkan Rutin Penjagaan Harian',
-    body: 'Mandi katil, tukar lampin pakai-buang, ganti cadar dan urut anggota — semua jadi 3× lebih cepat dengan permukaan yang boleh laras dan roda berkunci. Satu orang penjaga pun mampu.'
+    title: 'Daily care, made simpler',
+    body: 'Bed baths, diaper changes, fresh sheets, gentle massages — all of it goes faster on a height-adjustable bed with locking wheels. One caregiver can handle it without breaking a sweat.'
   }
 ];
 
@@ -42,13 +42,13 @@ export function Benefits() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Heart size={14} /> Kenapa Beli Katil Hospital
+            <Heart size={14} /> Why it matters
           </span>
-          <h2 className="section-title mt-3">6 Sebab Katil Hospital Lebih Selamat Daripada Katil Biasa</h2>
+          <h2 className="section-title mt-3">A regular bed isn't really built for this</h2>
           <p className="section-sub">
-            Katil biasa tak direka untuk pesakit. Katil hospital di rumah elak komplikasi yang
-            ramai keluarga tak sedar — daripada lubang baring sehingga sakit belakang penjaga.
-            Berikut bukti kenapa ia satu pelaburan, bukan kos.
+            Most families only realise this after a fall, a bad bedsore, or a caregiver throwing
+            out their back. A proper hospital bed (katil pesakit) at home prevents the small
+            problems that quietly turn into big hospital bills:
           </p>
         </div>
 

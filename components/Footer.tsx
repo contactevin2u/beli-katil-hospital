@@ -11,9 +11,9 @@ export function Footer() {
             <span className="font-extrabold text-white">{site.brand}</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed max-w-md">
-            {site.tagline}. Pakar beli & sewa katil hospital, mesin CPAP, mesin oksigen dan
-            peralatan perubatan rumah untuk penjagaan pesakit di Malaysia. Berdaftar di bawah
-            Akta Peranti Perubatan 2012 oleh MDA Malaysia.
+            {site.tagline}. We help families across Malaysia with hospital beds, CPAP machines,
+            oxygen concentrators and other home medical equipment — registered under the Medical
+            Device Act 2012 by MDA Malaysia.
           </p>
           <div className="mt-5 text-sm">
             <div className="font-bold text-white">{site.company}</div>
@@ -21,7 +21,7 @@ export function Footer() {
               <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> HQ: {site.hqAddress}
             </div>
             <div className="flex items-start gap-1.5">
-              <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> Cawangan: {site.branchAddress}
+              <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> Branch: {site.branchAddress}
             </div>
           </div>
           <div className="mt-5 flex gap-3">
@@ -35,25 +35,25 @@ export function Footer() {
         </div>
 
         <div>
-          <div className="text-white font-bold text-sm uppercase tracking-wide">Pautan</div>
+          <div className="text-white font-bold text-sm uppercase tracking-wide">Quick Links</div>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><a href="#produk" className="hover:text-white">Produk</a></li>
-            <li><a href="#sewa" className="hover:text-white">Sewa Katil</a></li>
-            <li><a href="#beli" className="hover:text-white">Beli Katil</a></li>
-            <li><a href="#kelebihan" className="hover:text-white">Kelebihan</a></li>
-            <li><a href="#liputan" className="hover:text-white">Liputan</a></li>
+            <li><a href="#produk" className="hover:text-white">Beds</a></li>
+            <li><a href="#sewa" className="hover:text-white">Rent</a></li>
+            <li><a href="#beli" className="hover:text-white">Buy</a></li>
+            <li><a href="#kelebihan" className="hover:text-white">Why It Matters</a></li>
+            <li><a href="#liputan" className="hover:text-white">Delivery</a></li>
             <li><a href="#faq" className="hover:text-white">FAQ</a></li>
-            <li><a href="#hubungi" className="hover:text-white">Hubungi Kami</a></li>
+            <li><a href="#hubungi" className="hover:text-white">Contact</a></li>
           </ul>
         </div>
 
         <div>
-          <div className="text-white font-bold text-sm uppercase tracking-wide">Pendaftaran</div>
+          <div className="text-white font-bold text-sm uppercase tracking-wide">Registration</div>
           <ul className="mt-4 space-y-2 text-sm">
             <li>MDA: {site.mda.registration}</li>
-            <li>Iklan: {site.mda.advert}</li>
+            <li>Advertising: {site.mda.advert}</li>
           </ul>
-          <div className="text-white font-bold text-sm uppercase tracking-wide mt-6">Waktu</div>
+          <div className="text-white font-bold text-sm uppercase tracking-wide mt-6">Hours</div>
           <ul className="mt-3 space-y-1 text-sm">
             <li>{site.hours.weekday}</li>
             <li>{site.hours.weekend}</li>
@@ -63,10 +63,10 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="container-x py-5 text-xs flex flex-col sm:flex-row gap-2 justify-between">
-          <div>© {new Date().getFullYear()} {site.brand} — {site.company}. Hak cipta terpelihara.</div>
+          <div>© {new Date().getFullYear()} {site.brand} — {site.company}. All rights reserved.</div>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white">Privasi</a>
-            <a href="#" className="hover:text-white">Terma & Syarat</a>
+            <a href="#" className="hover:text-white">Privacy</a>
+            <a href="#" className="hover:text-white">Terms &amp; Conditions</a>
           </div>
         </div>
       </div>

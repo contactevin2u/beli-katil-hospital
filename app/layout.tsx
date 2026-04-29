@@ -5,11 +5,11 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'Beli Katil Hospital Malaysia | Sewa RM150/bln, Hantar 4 Jam',
+    default: 'Hospital Bed Malaysia (Katil Hospital) — Buy or Rent for Home Care',
     template: '%s | Beli Katil Hospital Malaysia'
   },
   description:
-    'Beli katil hospital di Malaysia atau sewa dari RM150/bulan — hantar 4 jam, pasang PERCUMA, tiada deposit. 5,000+ keluarga percaya kami sejak 2016. Berdaftar MDA.',
+    'Looking for a hospital bed in Malaysia for home care? Buy from RM799 or rent from RM150/month. Free delivery & setup, no deposit, MDA-registered. Trusted since 2016.',
   keywords: [
     'beli katil hospital',
     'beli katil hospital Malaysia',
@@ -49,26 +49,26 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    locale: 'ms_MY',
-    alternateLocale: ['en_MY', 'zh_CN'],
+    locale: 'en_MY',
+    alternateLocale: ['ms_MY', 'zh_CN'],
     url: site.domain,
     siteName: site.brand,
-    title: 'Beli Katil Hospital Malaysia — Sewa Dulu, Beli Kemudian',
+    title: 'Hospital Bed Malaysia | Try Renting First, Buy When You\'re Ready',
     description:
-      'Pakar katil hospital untuk pesakit di rumah sejak 2016. Sewa dari RM150/bulan, beli dari RM799. Hantar 4 jam, pasang PERCUMA, berdaftar MDA.',
+      'Hospital beds (katil hospital) made for real home care. Rent from RM150/month or buy from RM799 — same-day setup in Klang Valley, MDA-registered.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Beli Katil Hospital Malaysia — Sewa atau Beli, Hantar 4 Jam'
+        alt: 'Hospital Bed Malaysia — Buy or Rent for Home Care'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Beli Katil Hospital Malaysia | Sewa Dulu, Beli Kemudian',
-    description: 'Sewa dari RM150/bln atau beli dari RM799. Hantar 4 jam. Pasang PERCUMA. Berdaftar MDA.',
+    title: 'Hospital Bed Malaysia | Katil Hospital for Real Home Care',
+    description: 'Rent from RM150/month or buy from RM799. Same-day delivery, free setup, MDA-registered.',
     images: ['/og-image.jpg']
   },
   robots: {
@@ -140,7 +140,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="ms">
+    <html lang="en-MY">
       <head>
         <script
           type="application/ld+json"

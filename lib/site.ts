@@ -1,19 +1,19 @@
 export const site = {
   brand: 'Beli Katil Hospital',
-  tagline: 'Pakar Katil Hospital Malaysia sejak 2016',
+  tagline: 'Hospital beds for home care in Malaysia, since 2016',
   domain: 'https://belikatilhospital.my',
   phone: '011-1119 5175',
   phoneIntl: '+60111119 5175',
   whatsappNumber: '601111195175',
-  whatsappText: 'Hai, saya nak tanya pasal katil hospital. Boleh bantu?',
+  whatsappText: 'Hi, I\'d like to ask about your hospital beds. Can you help?',
   email: 'contact@evin2u.com',
   company: 'AA Alive Sdn Bhd (1204108-D)',
   hqAddress: 'Batu Caves, Selangor, Malaysia',
   branchAddress: 'Kota Kinabalu, Sabah',
   hours: {
-    weekday: 'Isnin–Jumaat 9:00 pagi – 6:00 petang',
-    weekend: 'Sabtu–Ahad 9:00 pagi – 4:00 petang',
-    emergency: '24 jam (talian kecemasan)'
+    weekday: 'Mon–Fri, 9am – 6pm',
+    weekend: 'Sat–Sun, 9am – 4pm',
+    emergency: 'Emergency line: 24/7'
   },
   mda: {
     registration: 'GA9817222-107721',

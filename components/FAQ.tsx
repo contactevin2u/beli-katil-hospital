@@ -4,52 +4,52 @@ type QA = { q: string; a: string };
 
 export const faqs: QA[] = [
   {
-    q: 'Berapa harga katil hospital di Malaysia?',
-    a: 'Harga katil hospital di Malaysia berbeza ikut fungsi. Untuk beli: katil manual 2-fungsi mulai RM799, katil 3-fungsi (boleh laras tinggi) mulai RM1,349, dan katil elektrik 6-fungsi mulai RM5,500. Untuk sewa: bermula RM150/bulan tanpa deposit. Semua harga sudah termasuk pemasangan + latihan penjaga PERCUMA.'
+    q: 'How much does a hospital bed cost in Malaysia?',
+    a: 'Prices depend on what the bed can do. To buy: a manual 2-function bed starts at RM799, a 3-function bed (with adjustable height) starts at RM1,349, and a fully electric 6-function bed starts at RM5,500. To rent: from RM150/month with no deposit. All prices include free home delivery, setup, and a walkthrough for whoever will be using the bed.'
   },
   {
-    q: 'Berapa harga sewa katil hospital sebulan?',
-    a: 'Sewa katil hospital bermula RM150/bulan (manual 2-fungsi), RM250/bulan (3-fungsi — paling popular) dan RM715/bulan (elektrik 6-fungsi). Tiada deposit, tiada lock-in jangka panjang, dan tiada caj tersembunyi. Bayaran sewa boleh ditolak 100% dari harga beli kalau anda decide nak miliki kemudian.'
+    q: 'How much is monthly rental for a hospital bed?',
+    a: 'Monthly rental starts at RM150 (manual 2-function), RM250 (3-function — our most popular pick), and RM715 (electric 6-function). No deposit, no long lock-in, no surprise charges. If your family decides later to keep the bed, every ringgit you\'ve paid in rent goes towards the purchase price.'
   },
   {
-    q: 'Apa beza katil hospital 2-fungsi, 3-fungsi dan 6-fungsi elektrik?',
-    a: 'Katil 2-fungsi (manual) boleh laras sandaran kepala dan kaki sahaja — sesuai untuk pesakit ringan. Katil 3-fungsi tambah pelarasan tinggi katil (naik-turun) — kritikal untuk lindungi belakang penjaga. Katil elektrik 6-fungsi pula dikawal remote, ada mod Trendelenburg, bateri sandaran waktu blackout, dan biasanya disertakan tilam udara anti-lubang baring untuk pesakit terlantar berat.'
+    q: 'What\'s the difference between 2-function, 3-function and electric 6-function beds?',
+    a: 'A 2-function manual bed lets you tilt the head and feet — fine for lighter recovery. A 3-function bed adds height adjustment, which honestly makes a huge difference for the caregiver\'s back. The electric 6-function bed is fully motorised with a remote, has a Trendelenburg setting for emergencies, comes with a battery backup for power cuts, and usually ships with an air mattress for long-term bed care.'
   },
   {
-    q: 'Katil hospital mana paling sesuai untuk warga emas?',
-    a: 'Untuk warga emas yang masih boleh bergerak sendiri, katil 2-fungsi atau 3-fungsi sudah memadai — yang penting ada side rail untuk cegah jatuh. Untuk warga emas yang dah strok, nyanyuk berat atau terlantar lama, kami sarankan katil elektrik 6-fungsi dengan tilam udara untuk elak lubang baring.'
+    q: 'Which bed is best for elderly parents?',
+    a: 'If your parents can still get up and move around on their own, a 2-function or 3-function bed is enough — the key thing is having proper side rails to prevent falls. For elderly with stroke, advanced dementia, or anyone bedridden long-term, we usually recommend the electric 6-function with an air mattress to keep pressure sores from forming.'
   },
   {
-    q: 'Berapa lama untuk hantar katil hospital ke rumah?',
-    a: 'Untuk Lembah Klang (KL, Selangor, Putrajaya), kami pasang siap di rumah dalam 4 jam selepas tempahan disahkan, asalkan order sebelum 2 petang. Negeri Semenanjung lain biasanya 1–3 hari. Untuk Sabah, Sarawak dan W.P. Labuan, biasanya 2–5 hari kerja. Kami akan SMS atau WhatsApp anda dengan jadual tepat selepas pengesahan.'
+    q: 'How fast can you deliver to my home?',
+    a: 'Across Klang Valley (KL, Selangor, Putrajaya), we set up at your home within 4 hours of confirming the order — as long as you book before 2pm. Other states in Peninsular Malaysia are usually 1–3 working days. Sabah, Sarawak and W.P. Labuan take about 2–5 working days. We\'ll WhatsApp you the exact slot once everything\'s confirmed.'
   },
   {
-    q: 'Adakah pemasangan katil hospital dikenakan bayaran?',
-    a: 'Tidak. Pemasangan di rumah, demo cara guna, dan latihan teknik penjagaan untuk caregiver — semua PERCUMA. Pasukan kami akan datang sendiri, pasang setiap skru, uji semua fungsi, dan pastikan penjaga keluarga anda yakin guna sebelum kami balik. Tiada caj tersembunyi.'
+    q: 'Do you charge extra for installation?',
+    a: 'Nope, installation is on us. Our team comes to your home, assembles the bed, tests every function, and walks the caregiver through how to use it. Nobody leaves until the family feels confident. No hidden surcharges, no separate "service fee" — what you see in the quote is what you pay.'
   },
   {
-    q: 'Boleh sewa katil hospital dulu, kemudian beli?',
-    a: 'Boleh — ini program "Sewa Dulu, Beli Kemudian" eksklusif kami. Mulakan dengan sewa bulanan tanpa komitmen. Kalau selepas beberapa bulan keluarga rasa berbaloi nak miliki katil tersebut, 100% bayaran sewa yang dah dibayar akan ditolak dari harga beli. Tiada penalti tukar pelan, tiada syarat tersembunyi.'
+    q: 'Can I rent first and buy later?',
+    a: 'Absolutely — that\'s our most popular arrangement. Start with a monthly rental, no commitment. If after a few months you decide the bed is worth keeping, 100% of the rent you\'ve already paid is deducted from the purchase price. No fee to switch, no fine print.'
   },
   {
-    q: 'Ada pilihan ansuran 0% untuk beli katil hospital?',
-    a: 'Ya. Untuk pembelian katil hospital elektrik, kami tawarkan ansuran 0% sehingga 12 bulan melalui kad kredit utama (Maybank, CIMB, Public Bank, dan lain-lain) — tiada caj pemprosesan. Kelulusan dalam beberapa minit terus dari WhatsApp kami.'
+    q: 'Are 0% instalments available for buying?',
+    a: 'Yes. For electric beds, we offer 0% instalments up to 12 months through major Malaysian credit cards (Maybank, CIMB, Public Bank and others) — no processing fees. Approval usually comes through in minutes, all over WhatsApp.'
   },
   {
-    q: 'Boleh ke beli katil hospital second-hand atau terpakai?',
-    a: 'Kami tidak galak beli katil hospital second-hand dari sumber tidak rasmi (Mudah, Carousell, Facebook Marketplace) sebab risiko kontaminasi, parts haus dan tiada waranti. Sebagai alternatif, sewa dengan kami lebih jimat — semua katil sewa kami diperiksa, dibersihkan dengan disinfektan gred hospital, dan dilindungi waranti penuh.'
+    q: 'Can I just buy a second-hand hospital bed instead?',
+    a: 'We\'d gently steer you away from buying used beds off Mudah, Carousell or Facebook Marketplace — there\'s no way to verify what\'s been on it, parts wear out, and there\'s no warranty if something fails. Renting from us is often cheaper anyway, and every bed is inspected, deep-cleaned with hospital-grade disinfectant, and fully covered.'
   },
   {
-    q: 'Apa jadi kalau pesakit dah tak perlu katil lagi?',
-    a: 'Kalau anda menyewa, cukup WhatsApp untuk batal — kami akan jadualkan kutipan tanpa penalti (selepas bulan pertama). Kalau anda dah beli, gunakan program trade-in kami: kami beli balik dengan harga berpatutan atau anda boleh tukar dengan peralatan lain (kerusi roda, walker, mesin oksigen). Tak buang sia-sia.'
+    q: 'What happens when we don\'t need the bed anymore?',
+    a: 'If you\'re renting, just WhatsApp us to cancel — we\'ll arrange collection with no penalty (after the first month). If you bought it, we\'ll buy it back through our trade-in scheme at a fair price, or swap it for other equipment like a wheelchair, walker or oxygen machine. Nothing goes to waste.'
   },
   {
-    q: 'Adakah katil hospital ini berdaftar dan selamat?',
-    a: 'Ya. Semua katil hospital kami berdaftar di bawah Akta Peranti Perubatan 2012 (Akta 737) oleh MDA Malaysia, nombor pendaftaran GA9817222-107721. Kelulusan iklan: MDAMD 0127/2025. Setiap unit diperiksa dan disanitasi sepenuhnya sebelum hantar, dan dilindungi waranti rangka 2 tahun.'
+    q: 'Are these beds actually safe and certified?',
+    a: 'Yes. Every bed is registered under the Medical Device Act 2012 (Act 737) by MDA Malaysia — registration number GA9817222-107721, advertising approval MDAMD 0127/2025. Each unit is inspected and sanitised before it leaves our warehouse, and the frame is covered by a 2-year warranty.'
   },
   {
-    q: 'Boleh tuntut insurans atau panel hospital untuk katil hospital?',
-    a: 'Sesetengah polisi insurans kesihatan dan pelan medical card panel meliputi sewaan/pembelian peralatan perubatan rumah, terutamanya selepas pembedahan atau wad lanjutan. Kami akan sediakan invois rasmi dengan pendaftaran MDA untuk anda kemukakan tuntutan kepada syarikat insurans atau majikan.'
+    q: 'Can I claim this from insurance or my company medical card?',
+    a: 'Some health insurance policies and corporate medical cards do cover home medical equipment — particularly after surgery or extended hospital stays. We\'ll provide an official invoice with our MDA registration number so you can submit it to your insurer or HR department.'
   }
 ];
 
@@ -59,12 +59,12 @@ export function FAQ() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <HelpCircle size={14} /> Soalan Lazim
+            <HelpCircle size={14} /> Frequently asked
           </span>
-          <h2 className="section-title mt-3">Soalan Lazim Beli & Sewa Katil Hospital di Malaysia</h2>
+          <h2 className="section-title mt-3">The questions we get asked the most</h2>
           <p className="section-sub">
-            Daripada harga sehingga proses pulangan, berikut jawapan jujur untuk soalan yang
-            paling kerap kami terima sebelum keluarga buat keputusan.
+            From pricing to returns — straight, honest answers to the things Malaysian families
+            usually ask before they decide to buy or rent a hospital bed.
           </p>
         </div>
 

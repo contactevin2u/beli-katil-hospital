@@ -6,14 +6,14 @@ import type { ComponentType, SVGProps } from 'react';
 type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string }>;
 
 const personas: { Icon: IconType; label: string }[] = [
-  { Icon: UserCircle, label: 'Warga Emas' },
-  { Icon: Brain, label: 'Pesakit Strok' },
-  { Icon: Stethoscope, label: 'Lepas Pembedahan' },
-  { Icon: Accessibility, label: 'Pesakit Lumpuh' },
-  { Icon: Hospital, label: 'Baru Discaj Hospital' },
-  { Icon: HeartPulse, label: 'Pesakit Kanser' },
-  { Icon: Bed, label: 'Pesakit Terlantar' },
-  { Icon: Pill, label: 'Penyakit Kronik' }
+  { Icon: UserCircle, label: 'Elderly parents' },
+  { Icon: Brain, label: 'Stroke recovery' },
+  { Icon: Stethoscope, label: 'Post-surgery' },
+  { Icon: Accessibility, label: 'Paralysis or limited mobility' },
+  { Icon: Hospital, label: 'Just discharged from hospital' },
+  { Icon: HeartPulse, label: 'Cancer patients' },
+  { Icon: Bed, label: 'Long-term bedridden' },
+  { Icon: Pill, label: 'Chronic illness' }
 ];
 
 export function WhoNeeds() {
@@ -22,13 +22,13 @@ export function WhoNeeds() {
       <div className="container-x grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <span className="pill">
-            <Users size={14} /> Sesuai Untuk Siapa
+            <Users size={14} /> Who this is for
           </span>
-          <h2 className="section-title mt-3">8 Keadaan Yang Perlukan Katil Hospital di Rumah</h2>
+          <h2 className="section-title mt-3">Who actually needs a hospital bed at home?</h2>
           <p className="section-sub">
-            Kalau ahli keluarga anda dalam mana-mana keadaan ini, sebuah katil hospital di rumah
-            boleh ubah penjagaan harian daripada beban menjadi rutin yang terurus — untuk pesakit
-            dan untuk penjaga sendiri:
+            If anyone in your family fits one of these situations, a proper bed at home turns
+            daily care from a struggle into something manageable — for the patient and for whoever
+            is looking after them:
           </p>
 
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -47,20 +47,20 @@ export function WhoNeeds() {
 
           <div className="mt-8 rounded-2xl bg-amber-50 border border-amber-200 p-5">
             <div className="flex items-center gap-2 font-bold text-amber-900">
-              <Clock size={18} /> Pesakit baru discaj hospital esok?
+              <Clock size={18} /> Patient getting discharged tomorrow?
             </div>
             <p className="text-sm text-amber-800 mt-1">
-              Tempah sebelum 2 petang — kami pasang di rumah <strong>hari yang sama</strong> di
-              Lembah Klang, sebelum pesakit sampai. Pasukan kami bertugas 7 hari seminggu, termasuk
-              hujung minggu dan cuti umum.
+              Order by 2pm and we'll have the bed set up at your home <strong>the same day</strong>{' '}
+              in Klang Valley — before the patient even arrives. We work seven days a week,
+              including weekends and public holidays, sebab emergencies don't wait.
             </p>
             <a
-              href={waLink('Hai, ahli keluarga saya baru discaj hospital. Saya nak tanya pasal katil yang sesuai.')}
+              href={waLink('Hi, my family member is being discharged soon. Could you help me pick the right bed?')}
               target="_blank"
               rel="noopener"
               className="btn-primary mt-4 text-sm"
             >
-              Konsultasi Percuma di WhatsApp
+              Free WhatsApp consultation
             </a>
           </div>
         </div>
