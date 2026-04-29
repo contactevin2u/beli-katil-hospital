@@ -14,7 +14,7 @@ const badges: { Icon: IconType; label: string }[] = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white">
+    <section className="relative overflow-hidden bg-gradient-to-b from-accent-100 via-accent-50 to-white">
       <div className="container-x py-12 sm:py-20 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span className="pill">
