@@ -91,7 +91,7 @@ export function OtherProducts() {
               </span>
               <div>
                 <span className="inline-block bg-accent-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">
-                  Baharu
+                  ResMed AirStart 10
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
                   Mesin CPAP & BiPAP
@@ -133,14 +133,17 @@ export function OtherProducts() {
             <div className="mt-7 grid sm:grid-cols-2 gap-3">
               <div className="rounded-xl bg-brand-50 p-4">
                 <div className="text-xs text-slate-500">Sewa</div>
-                <div className="text-xl font-extrabold text-brand-700">RM250/bulan</div>
+                <div className="text-xl font-extrabold text-brand-700">RM270/bulan</div>
                 <div className="text-xs text-slate-500 mt-0.5">Termasuk mask & humidifier</div>
               </div>
               <div className="rounded-xl bg-green-50 p-4">
                 <div className="text-xs text-slate-500">Beli</div>
-                <div className="text-xl font-extrabold text-accent-600">Mulai RM2,499</div>
-                <div className="text-xs text-slate-500 mt-0.5">Ansuran 0% sampai 12 bulan</div>
+                <div className="text-xl font-extrabold text-accent-600">RM4,500</div>
+                <div className="text-xs text-slate-500 mt-0.5">Atau RM4,900 dengan full mask set</div>
               </div>
+            </div>
+            <div className="mt-3 text-xs text-slate-500">
+              <strong className="text-slate-700">Pilihan ansuran 0%:</strong> RM410 × 12 bulan atau RM790 × 6 bulan
             </div>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
