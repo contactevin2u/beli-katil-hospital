@@ -11,8 +11,9 @@ export function Footer() {
             <span className="font-extrabold text-white">{site.brand}</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed max-w-md">
-            {site.tagline}. Pakar sewa & beli katil hospital untuk penjagaan pesakit di rumah.
-            Berdaftar di bawah Akta Peranti Perubatan 2012 oleh MDA Malaysia.
+            {site.tagline}. Pakar beli & sewa katil hospital, mesin CPAP, mesin oksigen dan
+            peralatan perubatan rumah untuk penjagaan pesakit di Malaysia. Berdaftar di bawah
+            Akta Peranti Perubatan 2012 oleh MDA Malaysia.
           </p>
           <div className="mt-5 text-sm">
             <div className="font-bold text-white">{site.company}</div>

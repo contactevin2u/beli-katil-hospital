@@ -56,16 +56,18 @@ export function Testimonials() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <MessageSquare size={14} /> Kata Pelanggan
+            <MessageSquare size={14} /> Kata Keluarga Malaysia
           </span>
           <h2 className="section-title mt-3 flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-1">
               4.9 <Star size={28} className="text-amber-500" />
             </span>
-            <span>daripada 500+ Ulasan Google</span>
+            <span>daripada 500+ Ulasan Google Tulen</span>
           </h2>
           <p className="section-sub">
-            Apa kata keluarga yang pernah guna katil hospital daripada kami:
+            Pelanggan sebenar, keadaan sebenar — daripada kes strok di Shah Alam, post-pembedahan
+            di Klang, sehingga penjagaan warga emas di Kajang. Inilah pengalaman keluarga yang
+            sudah lalui apa yang anda sedang harungi:
           </p>
         </div>
 

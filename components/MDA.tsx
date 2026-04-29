@@ -8,15 +8,16 @@ export function MDA() {
       <div className="container-x grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <span className="pill !bg-white/10 !text-white">
-            <Landmark size={14} /> Berdaftar Rasmi
+            <Landmark size={14} /> Pembekal Berdaftar Rasmi
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 leading-tight">
-            Pembekal Dipercayai, Diluluskan oleh MDA Malaysia
+            Pembekal Katil Hospital Berdaftar MDA Malaysia
           </h2>
           <p className="mt-4 text-brand-100 max-w-xl">
-            Semua katil hospital kami mematuhi piawaian peranti perubatan dan didaftarkan di
-            bawah <strong className="text-white">Akta Peranti Perubatan 2012 (Akta 737)</strong> oleh
-            Pihak Berkuasa Peranti Perubatan (MDA) Malaysia.
+            Setiap katil hospital yang kami sewa atau jual didaftarkan di bawah{' '}
+            <strong className="text-white">Akta Peranti Perubatan 2012 (Akta 737)</strong> oleh
+            Pihak Berkuasa Peranti Perubatan (MDA) Malaysia. Tiada katil tiruan, tiada barang
+            second-hand pasaran gelap — semua boleh disahkan terus dengan MDA.
           </p>
 
           <div className="mt-6 grid grid-cols-2 gap-4">

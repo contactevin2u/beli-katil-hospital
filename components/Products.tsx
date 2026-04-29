@@ -17,46 +17,46 @@ const products: Product[] = [
   {
     id: 'standard-2f',
     name: 'Standard 2-Function',
-    tagline: 'Katil Manual untuk Penjagaan Asas',
+    tagline: 'Katil Hospital Manual 2-Fungsi',
     rentPrice: 'RM150/bulan',
     buyPrice: 'RM799',
     features: [
-      'Sandaran kepala boleh laras',
-      'Sandaran kaki boleh laras',
-      'Pagar sisi keselamatan',
-      'Roda berkunci',
-      'Berat tanggungan: 200kg'
+      'Sandaran kepala boleh laras (untuk makan & baca)',
+      'Sandaran kaki boleh laras (lega untuk lutut)',
+      'Pagar sisi penuh — cegah pesakit jatuh',
+      'Roda berkunci — selamat & senang gerak',
+      'Tahan beban sehingga 200kg'
     ],
     image: { src: '/images/katil-2-function.webp', width: 420, height: 420 }
   },
   {
     id: 'flexi-3f',
     name: 'Flexi 3-Function',
-    tagline: 'Paling Popular — Tinggi Boleh Laras',
+    tagline: 'Pilihan #1 — Katil Hospital 3-Fungsi Boleh Laras Tinggi',
     rentPrice: 'RM250/bulan',
     buyPrice: 'RM1,349',
-    badge: 'Pilihan Terbaik',
+    badge: 'Paling Laris',
     features: [
-      'Sandaran kepala + kaki',
-      'Ketinggian katil boleh laras',
-      'Senang untuk penjaga',
-      'Pagar sisi keselamatan',
-      'Termasuk tilam ortopedik'
+      'Sandaran kepala + kaki boleh laras',
+      'Tinggi katil naik-turun (lindungi belakang penjaga)',
+      'Pemindahan pesakit lebih mudah & selamat',
+      'Pagar sisi keselamatan penuh',
+      'PERCUMA tilam ortopedik anti-lubang baring'
     ],
     image: { src: '/images/katil-3-function.webp', width: 560, height: 560 }
   },
   {
     id: 'ultra-electric',
     name: 'Ultra Electric 6-Function',
-    tagline: 'Katil Elektrik Premium',
+    tagline: 'Katil Hospital Elektrik 6-Fungsi (Gred ICU)',
     rentPrice: 'RM715/bulan (ansuran)',
     buyPrice: 'RM5,500',
     features: [
-      'Kawalan jauh elektrik penuh',
-      '6 fungsi pelarasan',
-      'Mod Trendelenburg',
-      'Bateri sandaran kuasa',
-      'Tilam pembendung lubang baring'
+      'Kawalan jauh — 1 butang, satu orang penjaga cukup',
+      '6 fungsi pelarasan automatik',
+      'Mod Trendelenburg (untuk kes kritikal)',
+      'Bateri sandaran — tetap berfungsi waktu blackout',
+      'Tilam udara anti-lubang baring (bedsore) disertakan'
     ],
     image: { src: '/images/katil-elektrik.webp', width: 420, height: 420 }
   }
@@ -68,13 +68,14 @@ export function Products() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Bed size={14} /> Produk Kami
+            <Bed size={14} /> Pakej Katil Hospital
           </span>
-          <h2 className="section-title mt-3">Pilih Katil Hospital yang Sesuai</h2>
+          <h2 className="section-title mt-3">Harga Katil Hospital Malaysia — Pilih Ikut Tahap Penjagaan</h2>
           <p className="section-sub">
-            Semua katil kami berkualiti gred hospital, lulus piawaian MDA. Pilihan untuk{' '}
-            <strong>sewa</strong> atau <strong>beli</strong> — termasuk pemasangan & latihan
-            penjaga PERCUMA.
+            Tiga pakej katil hospital, satu standard kualiti — gred hospital, berdaftar MDA.
+            Daripada katil manual asas untuk pesakit ringan, sehingga katil elektrik 6-fungsi untuk
+            pesakit terlantar berat. <strong>Sewa</strong> atau <strong>beli</strong> — pemasangan
+            & latihan penjaga termasuk PERCUMA.
           </p>
         </div>
 
@@ -142,16 +143,17 @@ export function Products() {
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/15">
                 <Lightbulb size={20} />
               </span>
-              <h3 className="text-2xl font-bold">Sewa Dulu, Beli Kemudian</h3>
+              <h3 className="text-2xl font-bold">Sewa Katil Hospital Dulu, Beli Kemudian</h3>
             </div>
             <p className="mt-3 text-brand-100">
-              Tak pasti perlu berapa lama? Sewa dulu — kalau dah selesa, bayaran sewa boleh ditolak
-              dari harga beli. Tiada deposit, tiada caj tersembunyi.
+              Tak pasti pesakit perlu katil berapa lama? Sewa dulu — kalau lepas beberapa bulan
+              keluarga rasa berbaloi nak miliki, <strong className="text-white">100% bayaran sewa
+              ditolak dari harga beli</strong>. Tiada deposit, tiada caj tersembunyi, tiada lock-in.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan & latihan penjaga PERCUMA</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis & repair PERCUMA</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal bila-bila masa selepas 1 bulan</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan + latihan penjaga di rumah PERCUMA</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis, baiki & tukar parts PERCUMA sepanjang sewa</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal bila-bila masa lepas bulan pertama</li>
             </ul>
           </div>
           <div id="beli" className="rounded-3xl bg-white border border-slate-100 p-8 shadow-soft">
@@ -159,16 +161,17 @@ export function Products() {
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-accent-50 text-accent-600">
                 <Tag size={20} />
               </span>
-              <h3 className="text-2xl font-bold text-slate-900">Beli Terus & Jimat Lebih</h3>
+              <h3 className="text-2xl font-bold text-slate-900">Beli Katil Hospital Terus & Jimat Lebih</h3>
             </div>
             <p className="mt-3 text-slate-600">
-              Kalau kes panjang (lebih 6 bulan), beli terus lebih jimat. Kami tawarkan ansuran 0%
-              sehingga 12 bulan untuk model elektrik.
+              Untuk kes jangka panjang (lebih 6 bulan) atau penjagaan kekal warga emas — beli terus
+              lebih jimat berbanding sewa. Bayaran ansuran 0% sehingga 12 bulan untuk model elektrik,
+              kelulusan dalam beberapa minit.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-slate-700">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti 2 tahun</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Program trade-in (kami beli balik)</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran 0% sehingga 12 bulan</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti rangka 2 tahun, motor 1 tahun</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Program trade-in — kami beli balik bila tak guna</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran 0% sehingga 12 bulan (model elektrik)</li>
             </ul>
           </div>
         </div>

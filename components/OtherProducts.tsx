@@ -41,22 +41,22 @@ type OtherItem = {
 const otherItems: OtherItem[] = [
   {
     Icon: Droplet,
-    title: 'Mesin Oksigen',
-    desc: '5L/min & 10L/min — COPD, post-Covid, kanser',
+    title: 'Mesin Oksigen Rumah',
+    desc: 'Concentrator 5L/min & 10L/min — COPD, post-Covid, pesakit kanser',
     price: 'Sewa dari RM350/bulan',
     waMessage: 'Hai, saya nak tanya pasal mesin oksigen. Boleh terangkan lebih lanjut?'
   },
   {
     Icon: Bed,
     title: 'Tilam Anti-Lubang Baring',
-    desc: 'Tilam udara + pump untuk pesakit terlantar',
+    desc: 'Tilam udara (air mattress) + pump untuk pesakit terlantar lama',
     price: 'Sewa dari RM120/bulan',
     waMessage: 'Hai, saya nak tanya pasal tilam anti-lubang baring (air mattress). Boleh terangkan lebih lanjut?'
   },
   {
     Icon: Accessibility,
     title: 'Kerusi Roda & Walker',
-    desc: 'Standard, electric & walker recovery',
+    desc: 'Wheelchair manual, elektrik & walker untuk pemulihan post-surgery',
     price: 'Sewa dari RM80/bulan',
     waMessage: 'Hai, saya nak tanya pasal kerusi roda / walker. Boleh terangkan lebih lanjut?'
   }
@@ -71,14 +71,15 @@ export function OtherProducts() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Sparkles size={14} /> Peralatan Tambahan
+            <Sparkles size={14} /> Peralatan Penjagaan Rumah
           </span>
           <h2 className="section-title mt-3">
-            Bukan Sekadar Katil — Kami <span className="text-brand-700">Pakar CPAP</span> Juga
+            Selain Katil Hospital — Kami Juga <span className="text-brand-700">Pakar CPAP</span> Malaysia
           </h2>
           <p className="section-sub">
-            CPAP & BiPAP machine untuk pesakit sleep apnea, plus peralatan perubatan rumah lain.
-            Pakej servis, penghantaran & sokongan yang sama dengan katil.
+            One-stop centre untuk peralatan perubatan rumah: mesin CPAP/BiPAP untuk sleep apnea,
+            mesin oksigen, tilam anti-lubang baring, kerusi roda & walker. Servis, penghantaran &
+            sokongan teknikal yang sama tahap dengan katil hospital kami.
           </p>
         </div>
 
@@ -99,14 +100,15 @@ export function OtherProducts() {
             </div>
 
             <p className="mt-5 text-slate-600 leading-relaxed">
-              Untuk pesakit <strong>Sleep Apnea (OSA)</strong> dan gangguan pernafasan ketika
-              tidur. Mesin CPAP bantu pernafasan stabil sepanjang malam — kurangkan dengkur, naikkan
-              kualiti tidur dan elak komplikasi jantung jangka panjang.
+              Mesin CPAP & BiPAP untuk pesakit <strong>Sleep Apnea (OSA)</strong> dan gangguan
+              pernafasan waktu tidur. Pernafasan stabil sepanjang malam — bukan setakat hentikan
+              dengkuran, tapi elak komplikasi serius seperti darah tinggi, sakit jantung dan strok
+              jangka panjang.
             </p>
 
             <div className="mt-6 rounded-2xl bg-slate-50 border border-slate-100 p-5">
               <div className="text-xs font-bold uppercase tracking-wide text-slate-500">
-                Tanda-tanda anda perlukan CPAP
+                5 tanda anda atau ahli keluarga perlukan CPAP
               </div>
               <div className="mt-3 grid sm:grid-cols-3 gap-3">
                 {cpapSigns.map(({ Icon, label }) => (
@@ -196,7 +198,7 @@ export function OtherProducts() {
 
         <div className="mt-12">
           <div className="flex items-end justify-between flex-wrap gap-2">
-            <h3 className="text-lg font-bold text-slate-900">Kami juga sedia ada</h3>
+            <h3 className="text-lg font-bold text-slate-900">Peralatan Perubatan Rumah Lain</h3>
             <a
               href={waLink('Hai, saya nak tanya pasal peralatan perubatan rumah selain katil. Boleh bantu?')}
               target="_blank"

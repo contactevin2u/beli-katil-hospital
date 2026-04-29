@@ -5,23 +5,43 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: 'Beli & Sewa Katil Hospital Malaysia | Hantar 4 Jam, Harga Berpatutan',
+    default: 'Beli Katil Hospital Malaysia | Sewa RM150/bln, Hantar 4 Jam',
     template: '%s | Beli Katil Hospital Malaysia'
   },
   description:
-    'Beli & sewa katil hospital Malaysia mulai RM150/bulan. Tiada deposit, hantar 4 jam, pemasangan percuma. Pakar penjagaan pesakit di rumah sejak 2016. Berdaftar MDA.',
+    'Beli katil hospital di Malaysia atau sewa dari RM150/bulan — hantar 4 jam, pasang PERCUMA, tiada deposit. 5,000+ keluarga percaya kami sejak 2016. Berdaftar MDA.',
   keywords: [
     'beli katil hospital',
+    'beli katil hospital Malaysia',
     'sewa katil hospital',
+    'sewa katil hospital Malaysia',
     'katil hospital Malaysia',
-    'katil pesakit',
-    'katil elektrik hospital',
+    'katil hospital harga',
     'katil hospital murah',
+    'harga katil hospital',
+    'katil hospital 2 fungsi',
+    'katil hospital 3 fungsi',
+    'katil hospital elektrik',
+    'katil hospital manual',
+    'katil pesakit',
+    'katil pesakit terlantar',
+    'katil pesakit di rumah',
+    'katil warga emas',
+    'katil orang sakit',
+    'sewa katil pesakit',
+    'penjagaan pesakit di rumah',
+    'home nursing equipment Malaysia',
     'hospital bed Malaysia',
-    'rent hospital bed',
+    'buy hospital bed Malaysia',
+    'rent hospital bed Malaysia',
+    'adjustable hospital bed',
+    'electric hospital bed Malaysia',
     'katil hospital Selangor',
-    'katil hospital KL',
-    'penjagaan pesakit di rumah'
+    'katil hospital Kuala Lumpur',
+    'katil hospital Johor Bahru',
+    'katil hospital Penang',
+    'katil hospital Sabah',
+    'katil hospital Sarawak'
   ],
   authors: [{ name: site.company }],
   creator: site.brand,
@@ -33,22 +53,22 @@ export const metadata: Metadata = {
     alternateLocale: ['en_MY', 'zh_CN'],
     url: site.domain,
     siteName: site.brand,
-    title: 'Beli & Sewa Katil Hospital Malaysia | Mulai RM150/bulan',
+    title: 'Beli Katil Hospital Malaysia — Sewa Dulu, Beli Kemudian',
     description:
-      'Pakar katil hospital untuk pesakit di rumah. Hantar 4 jam ke seluruh Malaysia. Sewa dulu, beli kemudian. Berdaftar MDA.',
+      'Pakar katil hospital untuk pesakit di rumah sejak 2016. Sewa dari RM150/bulan, beli dari RM799. Hantar 4 jam, pasang PERCUMA, berdaftar MDA.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Beli Katil Hospital Malaysia'
+        alt: 'Beli Katil Hospital Malaysia — Sewa atau Beli, Hantar 4 Jam'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Beli & Sewa Katil Hospital Malaysia',
-    description: 'Hantar 4 jam, mulai RM150/bulan. Tiada deposit. Berdaftar MDA.',
+    title: 'Beli Katil Hospital Malaysia | Sewa Dulu, Beli Kemudian',
+    description: 'Sewa dari RM150/bln atau beli dari RM799. Hantar 4 jam. Pasang PERCUMA. Berdaftar MDA.',
     images: ['/og-image.jpg']
   },
   robots: {

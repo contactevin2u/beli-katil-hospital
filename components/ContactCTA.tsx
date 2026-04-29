@@ -6,14 +6,15 @@ export function ContactCTA() {
     <section id="hubungi" className="py-16 sm:py-24 bg-gradient-to-br from-accent-500 to-orange-700 text-white">
       <div className="container-x text-center max-w-3xl mx-auto">
         <span className="pill !bg-white/15 !text-white">
-          <Bolt size={14} /> Sedia Untuk Bantu Anda
+          <Bolt size={14} /> Sedia Bantu — 7 Hari Seminggu
         </span>
         <h2 className="text-3xl sm:text-5xl font-extrabold mt-4 leading-tight">
-          Perlukan Katil Hospital Hari Ini?
+          Perlukan Katil Hospital Hari Ini? Kami Hantar Dalam 4 Jam.
         </h2>
         <p className="mt-5 text-orange-50 text-lg">
-          WhatsApp kami sekarang — kami balas dalam 5 minit. Konsultasi percuma, tiada paksaan.
-          Kami bantu anda pilih katil yang paling sesuai untuk keluarga.
+          WhatsApp kami sekarang — purata jawapan dalam 5 minit. Konsultasi percuma tanpa
+          komitmen: ceritakan keadaan pesakit, kami cadangkan katil yang paling sesuai dan halal
+          ikut bajet keluarga.
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">

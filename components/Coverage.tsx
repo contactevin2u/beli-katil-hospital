@@ -26,10 +26,12 @@ export function Coverage() {
           <span className="pill">
             <MapPin size={14} /> Liputan Penghantaran
           </span>
-          <h2 className="section-title mt-3">Kami Hantar ke Seluruh Malaysia</h2>
+          <h2 className="section-title mt-3">Beli & Sewa Katil Hospital — Liputan Seluruh Malaysia</h2>
           <p className="section-sub">
-            Daripada Lembah Klang sehingga Sabah & Sarawak — pasukan logistik kami sentiasa
-            sedia. 4 jam untuk Lembah Klang, 1–3 hari untuk negeri lain.
+            Hub utama di Batu Caves (Selangor) dan cawangan di Kota Kinabalu (Sabah). Penghantaran
+            kami sampai ke 14 negeri + W.P. Labuan: <strong>4 jam</strong> untuk Lembah Klang,{' '}
+            <strong>1–3 hari</strong> untuk negeri lain — termasuk pulau seperti Langkawi & Pulau
+            Pinang.
           </p>
         </div>
 

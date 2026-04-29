@@ -1,10 +1,10 @@
 import { Star } from './Icon';
 
 const stats = [
-  { value: '5,000+', label: 'Pelanggan Berpuas Hati' },
-  { value: '10+', label: 'Tahun Pengalaman' },
-  { value: '4.9', label: 'Rating Google', star: true },
-  { value: '24/7', label: 'Sokongan Pelanggan' }
+  { value: '5,000+', label: 'Keluarga Malaysia Dilayan' },
+  { value: '10+', label: 'Tahun Pakar Katil Hospital' },
+  { value: '4.9', label: 'Rating Google (500+ ulasan)', star: true },
+  { value: '24/7', label: 'Sokongan Teknikal Kecemasan' }
 ];
 
 export function TrustBar() {

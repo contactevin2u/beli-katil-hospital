@@ -18,14 +18,14 @@ export function Hero() {
       <div className="container-x py-12 sm:py-20 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span className="pill">
-            <StarOutline size={14} /> #1 Pilihan 5,000+ Keluarga Malaysia
+            <StarOutline size={14} /> Dipercayai 5,000+ Keluarga Malaysia Sejak 2016
           </span>
           <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.05]">
-            Beli & Sewa <span className="text-brand-700">Katil Hospital</span> Malaysia
+            Beli <span className="text-brand-700">Katil Hospital</span> Malaysia — Atau Sewa Dulu, Beli Kemudian
           </h1>
           <p className="mt-5 text-lg text-slate-600 max-w-xl">
-            Jaga pesakit di rumah lebih mudah dan selesa. <strong>Sewa mulai RM150/bulan</strong> atau{' '}
-            <strong>beli mulai RM799</strong>. Hantar dalam 4 jam ke seluruh Malaysia. Tiada deposit, pemasangan percuma.
+            Pakar katil hospital untuk penjagaan pesakit di rumah — warga emas, pesakit strok, lepas pembedahan & terlantar.{' '}
+            <strong>Sewa dari RM150/bulan</strong> atau <strong>beli dari RM799</strong>. Hantar dalam 4 jam ke Lembah Klang, pasang & latih penjaga PERCUMA.
           </p>
 
           <div className="mt-7 flex flex-col sm:flex-row gap-3">
@@ -71,7 +71,7 @@ export function Hero() {
           <div className="relative aspect-[4/3] rounded-3xl shadow-soft overflow-hidden">
             <Image
               src="/images/hero-katil.png"
-              alt="Katil hospital di bilik tidur rumah — sandaran kepala dinaikkan, pemandangan taman"
+              alt="Beli katil hospital Malaysia — katil pesakit dipasang di bilik tidur, sandaran kepala dinaikkan untuk waktu makan"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -79,8 +79,8 @@ export function Hero() {
             />
           </div>
           <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-soft p-4 border border-slate-100 hidden sm:block">
-            <div className="text-xs text-slate-500">Promosi Bulan Ini</div>
-            <div className="font-bold text-slate-900">Sewa dari RM150/bulan</div>
+            <div className="text-xs text-slate-500">Pakej Bulan Ini</div>
+            <div className="font-bold text-slate-900">Sewa Katil Dari RM150/bulan</div>
             <div className="text-xs text-accent-600 font-semibold">+ Tiang IV & meja makan PERCUMA</div>
           </div>
           <div className="absolute -top-4 -right-2 bg-accent-500 text-white rounded-full px-4 py-2 text-sm font-bold shadow-soft hidden sm:flex items-center gap-1.5">

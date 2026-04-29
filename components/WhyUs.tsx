@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const reasons: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Trophy,
-    title: '10+ Tahun Pengalaman',
-    body: 'Sejak 2016, lebih 5,000 keluarga Malaysia mempercayakan kami untuk penjagaan orang tersayang.'
+    title: '10+ Tahun Khusus Katil Hospital',
+    body: 'Sejak 2016 kami fokus 100% pada penjagaan pesakit di rumah — bukan kedai perabot yang jual sekali sekala. 5,000+ keluarga Malaysia dah percayakan kami untuk situasi yang paling kritikal.'
   },
   {
     Icon: DollarSign,
-    title: 'Pakej Sewa & Beli Fleksibel',
-    body: 'Sewa dulu, beli kemudian. Ansuran 0% sehingga 12 bulan untuk pembelian. Tiada caj tersembunyi.'
+    title: 'Sewa Dulu, Beli Kemudian (Bayaran Ditolak)',
+    body: 'Tak komited. Sewa dari RM150/bulan — kalau dah selesa nak beli, bayaran sewa ditolak 100% dari harga beli. Ansuran 0% sehingga 12 bulan untuk model elektrik. Tiada deposit, tiada hidden fee.'
   },
   {
     Icon: Bolt,
-    title: 'Hantar 4 Jam, Seluruh Malaysia',
-    body: 'Lembah Klang dapat hantar dalam 4 jam. Penghantaran ke Sabah, Sarawak & Labuan juga tersedia.'
+    title: 'Hantar 4 Jam Lembah Klang, 1–3 Hari Seluruh Malaysia',
+    body: 'Tempah sebelum 2 petang — kami pasang siap di rumah dalam 4 jam untuk KL, Selangor, Putrajaya. Sabah, Sarawak, Labuan & Semenanjung lain dalam 1–3 hari, dengan penjejakan penghantaran.'
   },
   {
     Icon: Phone,
-    title: 'Sokongan Teknikal 24/7',
-    body: 'Talian kecemasan 24 jam. Pasukan teknikal sedia bantu walaupun tengah malam atau cuti umum.'
+    title: 'Sokongan Teknikal 24/7 Walaupun Cuti Umum',
+    body: 'Katil rosak pukul 2 pagi? Pesakit tersangkut posisi? Talian kecemasan kami buka 24 jam, 7 hari seminggu. Pasukan teknikal sedia datang ke rumah, walaupun Hari Raya atau Tahun Baru Cina.'
   },
   {
     Icon: Wrench,
-    title: 'Pemasangan & Latihan PERCUMA',
-    body: 'Kami pasang sendiri di rumah anda dan ajar penjaga cara guna dengan selamat — semua percuma.'
+    title: 'Pasang & Latih Penjaga di Rumah PERCUMA',
+    body: 'Kami pasang sendiri, demo cara naik-turun pesakit, ajar tukar lampin tanpa sakit belakang, dan tunjuk cara cegah lubang baring. Penjaga keluar dari sesi ini lebih yakin — bukan blur.'
   },
   {
     Icon: RefreshCw,
-    title: 'Program Trade-In',
-    body: 'Tak perlu lagi katil? Kami beli balik atau tukar dengan harga berpatutan. Tak buang sia-sia.'
+    title: 'Program Trade-In: Kami Beli Balik',
+    body: 'Bila katil tak diperlukan lagi, kami beli balik dengan harga berpatutan atau tukar dengan model lain. Tak buang sia-sia, tak perlu cari pembeli sendiri di Mudah/Carousell.'
   }
 ];
 
@@ -45,10 +45,12 @@ export function WhyUs() {
             <StarOutline size={14} /> Kenapa Pilih Kami
           </span>
           <h2 className="section-title mt-3">
-            Kenapa 5,000+ Keluarga Malaysia Pilih Kami?
+            Kenapa 5,000+ Keluarga Pilih BeliKatilHospital.my Berbanding Kedai Lain
           </h2>
           <p className="section-sub">
-            Bukan sekadar jual katil — kami rakan kongsi anda dalam penjagaan pesakit di rumah.
+            Banyak kedai jual katil hospital di Malaysia. Beza kami: kami fokus 100% pada
+            penjagaan pesakit di rumah, bukan jual perabot sebagai sampingan. Bila keluarga anda
+            paling perlukan bantuan — kami yang akan jawab telefon.
           </p>
         </div>
 

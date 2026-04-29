@@ -6,33 +6,33 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const benefits: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: ShieldCheck,
-    title: 'Elak Jangkitan Hospital (HAI)',
-    body: '21.6% pesakit di Asia Tenggara dijangkiti HAI semasa di hospital. Penjagaan di rumah kurangkan risiko ini dengan ketara.'
+    title: 'Kurangkan Risiko Jangkitan Hospital (HAI)',
+    body: 'Sehingga 21.6% pesakit di Asia Tenggara dijangkiti Hospital-Acquired Infections semasa rawatan. Penjagaan di rumah dengan katil hospital sendiri kurangkan pendedahan ini secara drastik.'
   },
   {
     Icon: Bandage,
-    title: 'Cegah Lubang Baring (Bedsores)',
-    body: '1 dari 7 pesakit terlantar mengalami pressure ulcer. Tilam khas + pelarasan posisi mudahkan pencegahan.'
+    title: 'Cegah Lubang Baring (Pressure Ulcer)',
+    body: '1 dari 7 pesakit terlantar lebih 2 minggu akan dapat lubang baring. Tilam udara + pelarasan posisi setiap 2 jam pada katil hospital kurangkan risiko ini sehingga 80%.'
   },
   {
     Icon: Bone,
-    title: 'Pagar Sisi Cegah Jatuh',
-    body: 'Pagar sisi katil dapat kurangkan risiko jatuh sehingga 55% — sangat penting untuk warga emas & pesakit lemah.'
+    title: 'Cegah Jatuh dengan Pagar Sisi (Side Rail)',
+    body: 'Side rail penuh pada katil hospital terbukti kurangkan kejadian jatuh dari katil sehingga 55% — kritikal untuk warga emas, pesakit strok dan pesakit nyanyuk (dementia).'
   },
   {
     Icon: Dumbbell,
-    title: 'Lindungi Penjaga Daripada Sakit Belakang',
-    body: 'Ketinggian katil yang boleh dilaras pastikan penjaga tak perlu membongkok — kurangkan risiko sakit pinggang.'
+    title: 'Selamatkan Belakang Penjaga (Caregiver)',
+    body: 'Tinggi katil boleh dilaras = penjaga tak perlu membongkok untuk tukar lampin, mandi atau pemindahan. Elak slipped disc dan sakit pinggang kronik yang melanda 60% penjaga jangka panjang.'
   },
   {
     Icon: Soup,
-    title: 'Makan & Minum Selamat',
-    body: 'Kepala dinaikkan 30°–45° kurangkan risiko tersedak dan masalah salur pernafasan (aspirasi).'
+    title: 'Suapan & Minum Lebih Selamat',
+    body: 'Sandaran kepala 30°–45° elakkan tersedak dan aspirasi — punca utama radang paru-paru (aspiration pneumonia) dalam kalangan pesakit warga emas dan pesakit strok.'
   },
   {
     Icon: Sparkles,
-    title: 'Senang Mandi & Tukar Lampin',
-    body: 'Permukaan boleh laras + roda berkunci memudahkan rutin penjagaan harian dengan satu orang penjaga.'
+    title: 'Permudahkan Rutin Penjagaan Harian',
+    body: 'Mandi katil, tukar lampin pakai-buang, ganti cadar dan urut anggota — semua jadi 3× lebih cepat dengan permukaan yang boleh laras dan roda berkunci. Satu orang penjaga pun mampu.'
   }
 ];
 
@@ -42,12 +42,13 @@ export function Benefits() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <Heart size={14} /> Kenapa Penting
+            <Heart size={14} /> Kenapa Beli Katil Hospital
           </span>
-          <h2 className="section-title mt-3">Manfaat Katil Hospital di Rumah</h2>
+          <h2 className="section-title mt-3">6 Sebab Katil Hospital Lebih Selamat Daripada Katil Biasa</h2>
           <p className="section-sub">
-            Lebih daripada sekadar tempat tidur — katil hospital adalah pelaburan untuk
-            keselamatan dan keselesaan orang tersayang.
+            Katil biasa tak direka untuk pesakit. Katil hospital di rumah elak komplikasi yang
+            ramai keluarga tak sedar — daripada lubang baring sehingga sakit belakang penjaga.
+            Berikut bukti kenapa ia satu pelaburan, bukan kos.
           </p>
         </div>
 
