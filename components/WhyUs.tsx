@@ -16,13 +16,13 @@ const reasons: { Icon: IconType; title: string; body: string }[] = [
   },
   {
     Icon: Bolt,
-    title: 'Hantar laju seluruh Malaysia',
-    body: 'Order before 2 petang, kami setup dalam 4 jam untuk KL, Selangor, Putrajaya. Sabah, Sarawak, Labuan dan negeri lain — biasanya 1–3 hari kerja, dengan tracking penghantaran.'
+    title: 'Pemasangan FREE di rumah',
+    body: 'Tiada caj tambahan untuk pemasangan — crew kami yang setup, bukan family yang kena bertarung dengan skrew dan manual. Test semua function, demo remote, dan walkthrough caregiver semua sekali. Quotation tu la harga sebenar, no surprises.'
   },
   {
     Icon: Phone,
     title: 'Support sebenar, walaupun pukul 2 pagi',
-    body: 'Katil rosak tengah malam? Pesakit tersangkut posisi awkward? Talian kecemasan kami buka 24/7 — termasuk Raya, CNY, Deepavali. Kami akan hantar orang sampai ke rumah.'
+    body: 'Katil rosak tengah malam? Pesakit tersangkut posisi awkward? Talian kecemasan kami buka 24/7 — termasuk Raya, CNY, Deepavali. Crew kami akan datang ke rumah.'
   },
   {
     Icon: Wrench,

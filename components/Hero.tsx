@@ -6,9 +6,9 @@ import type { ComponentType, SVGProps } from 'react';
 type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string }>;
 
 const badges: { Icon: IconType; label: string }[] = [
-  { Icon: Clock, label: 'Hantar & pasang hari sama' },
+  { Icon: Wrench, label: 'Pemasangan FREE' },
   { Icon: CheckCircle, label: 'Tiada deposit' },
-  { Icon: Wrench, label: 'Pasang free' },
+  { Icon: Clock, label: 'Setup hari sama' },
   { Icon: Hospital, label: 'Daftar MDA' }
 ];
 
@@ -27,7 +27,7 @@ export function Hero() {
             Cari hospital bed yang betul-betul sesuai untuk jaga ibu ayah, recovery lepas
             operation, atau pesakit terlantar? Kami bantu families seluruh Malaysia pilih katil
             yang berbaloi — <strong>sewa mulai RM150/bulan</strong> atau{' '}
-            <strong>beli mulai RM799</strong>. Hantar laju, pasang sendiri di rumah, no deposit.
+            <strong>beli mulai RM799</strong>. Pemasangan FREE di rumah, no deposit.
           </p>
 
           <div className="mt-7 flex flex-col sm:flex-row gap-3">

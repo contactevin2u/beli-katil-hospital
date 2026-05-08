@@ -45,8 +45,8 @@ export function MDA() {
           {[1, 2, 3, 4].map((i) => (
             <ImagePlaceholder
               key={i}
-              label={`Bukti penghantaran ${i}`}
-              note={`delivery-${i}.jpg`}
+              label={`Bukti pemasangan ${i}`}
+              note={`pemasangan-${i}.jpg`}
               className="aspect-square rounded-2xl !bg-white/10 !border-white/20 !text-white/60"
             />
           ))}

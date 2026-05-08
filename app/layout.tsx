@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: '%s | Beli Katil Hospital Malaysia'
   },
   description:
-    'Cari katil hospital untuk jaga keluarga di rumah? Sewa mulai RM150/bulan atau beli mulai RM799. Hantar laju, pasang free, daftar MDA. Trusted sejak 2016.',
+    'Cari katil hospital untuk jaga keluarga di rumah? Sewa mulai RM150/bulan atau beli mulai RM799. Pemasangan FREE, daftar MDA. Trusted sejak 2016.',
   keywords: [
     'beli katil hospital',
     'beli katil hospital Malaysia',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: site.brand,
     title: 'Beli Katil Hospital Malaysia — Sewa Dulu, Beli Kemudian',
     description:
-      'Katil hospital senang guna untuk jaga ibu ayah, lepas operation, atau pesakit terlantar. Sewa mulai RM150/bulan, beli mulai RM799. Hantar & pasang sendiri di rumah.',
+      'Katil hospital senang guna untuk jaga ibu ayah, lepas operation, atau pesakit terlantar. Sewa mulai RM150/bulan, beli mulai RM799. Pemasangan FREE di rumah anda.',
     images: [
       {
         url: '/og-image.jpg',
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Beli Katil Hospital Malaysia | Hospital Bed untuk Jaga di Rumah',
-    description: 'Sewa mulai RM150/bulan atau beli mulai RM799. Hantar laju, pasang free, daftar MDA.',
+    description: 'Sewa mulai RM150/bulan atau beli mulai RM799. Pemasangan FREE, daftar MDA.',
     images: ['/og-image.jpg']
   },
   robots: {

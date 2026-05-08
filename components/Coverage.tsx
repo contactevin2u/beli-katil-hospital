@@ -24,14 +24,13 @@ export function Coverage() {
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
-            <MapPin size={14} /> Liputan penghantaran
+            <MapPin size={14} /> Kawasan kami
           </span>
           <h2 className="section-title mt-3">Dari KL sampai Kota Kinabalu — kami cover seluruh Malaysia</h2>
           <p className="section-sub">
-            Hub utama di Batu Caves (Selangor), cawangan di Kota Kinabalu (Sabah). Kami hantar ke
-            14 negeri + W.P. Labuan: <strong>4 jam</strong> untuk Klang Valley,{' '}
-            <strong>1–3 hari kerja</strong> untuk negeri lain — termasuk pulau macam Langkawi dan
-            Pulau Pinang.
+            Hub utama di Batu Caves (Selangor), cawangan di Kota Kinabalu (Sabah). Kami serve
+            14 negeri + W.P. Labuan — termasuk pulau macam Langkawi dan Pulau Pinang. WhatsApp
+            kami untuk detail jadual setup ke kawasan anda.
           </p>
         </div>
 

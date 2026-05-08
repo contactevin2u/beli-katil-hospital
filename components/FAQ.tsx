@@ -5,7 +5,7 @@ type QA = { q: string; a: string };
 export const faqs: QA[] = [
   {
     q: 'Berapa harga katil hospital di Malaysia?',
-    a: 'Harga depend pada function. Untuk beli: katil manual 2-function start dari RM799, katil 3-function (boleh laras tinggi) start dari RM1,349, dan katil elektrik 6-function full-motor start dari RM5,500. Untuk sewa: mulai RM150/bulan, no deposit. Semua harga ni dah termasuk hantar, pasang, dan demo cara guna untuk caregiver — semua free.'
+    a: 'Harga depend pada function. Untuk beli: katil manual 2-function start dari RM799, katil 3-function (boleh laras tinggi) start dari RM1,349, dan katil elektrik 6-function full-motor start dari RM5,500. Untuk sewa: mulai RM150/bulan, no deposit. Semua harga ni dah termasuk pemasangan dan demo cara guna untuk caregiver — semua FREE.'
   },
   {
     q: 'Berapa sewa katil hospital sebulan?',
@@ -20,12 +20,8 @@ export const faqs: QA[] = [
     a: 'Kalau ibu ayah masih boleh bangun sendiri, katil 2-function atau 3-function dah cukup — yang penting ada side rail untuk elak jatuh. Tapi kalau warga emas yang dah strok, dementia teruk, atau terlantar lama, kami sarankan katil elektrik 6-function dengan air mattress — supaya tak kena lubang baring.'
   },
   {
-    q: 'Berapa lama nak hantar katil ke rumah?',
-    a: 'Untuk Klang Valley (KL, Selangor, Putrajaya), kami pasang siap di rumah dalam 4 jam selepas order confirm — asalkan order before 2 petang. Negeri Semenanjung lain biasanya 1–3 hari kerja. Sabah, Sarawak, dan W.P. Labuan ambil masa 2–5 hari kerja. Kami akan WhatsApp anda jadual tepat lepas semua dah confirm.'
-  },
-  {
     q: 'Pemasangan kena bayar tambahan tak?',
-    a: 'Tak, semua atas kami. Team kami datang sendiri ke rumah, pasang setiap skrew, test semua function, dan tunjuk caregiver cara handle. Kami tak balik sampai family rasa yakin nak guna sendiri. Tiada caj tersorok, tiada "service fee" lain-lain — harga dalam quotation tu la harga sebenar.'
+    a: 'Tak — pemasangan FREE, semua atas kami. Team kami datang sendiri ke rumah, pasang setiap skrew, test semua function, dan tunjuk caregiver cara handle. Kami tak balik sampai family rasa yakin nak guna sendiri. Tiada caj tersorok, tiada "service fee" lain-lain — harga dalam quotation tu la harga sebenar.'
   },
   {
     q: 'Boleh sewa katil dulu, beli kemudian?',
@@ -45,7 +41,7 @@ export const faqs: QA[] = [
   },
   {
     q: 'Katil ni betul-betul selamat dan certified ke?',
-    a: 'Ya. Setiap katil kami daftar di bawah Akta Peranti Perubatan 2012 (Akta 737) oleh MDA Malaysia — nombor pendaftaran GA9817222-107721, kelulusan iklan MDAMD 0127/2025. Setiap unit di-inspect dan disanitize before kami hantar, dan rangka katil ada warranty 2 tahun.'
+    a: 'Ya. Setiap katil kami daftar di bawah Akta Peranti Perubatan 2012 (Akta 737) oleh MDA Malaysia — nombor pendaftaran GA9817222-107721, kelulusan iklan MDAMD 0127/2025. Setiap unit di-inspect dan disanitize sebelum sampai ke rumah anda, dan rangka katil ada warranty 2 tahun.'
   },
   {
     q: 'Boleh claim insurans atau medical card company tak?',

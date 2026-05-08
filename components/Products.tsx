@@ -152,7 +152,7 @@ export function Products() {
               cancel yang menyusahkan.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Hantar, pasang & training caregiver — included</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan FREE & training caregiver — included</li>
               <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis & tukar parts sepanjang sewa — covered</li>
               <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal lepas bulan pertama, no penalty</li>
             </ul>
