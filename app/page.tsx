@@ -7,6 +7,7 @@ import { Benefits } from '@/components/Benefits';
 import { WhoNeeds } from '@/components/WhoNeeds';
 import { WhyUs } from '@/components/WhyUs';
 import { MDA } from '@/components/MDA';
+import { DeliveryProof } from '@/components/DeliveryProof';
 import { Testimonials } from '@/components/Testimonials';
 import { Coverage } from '@/components/Coverage';
 import { FAQ, FaqJsonLd } from '@/components/FAQ';
@@ -29,6 +30,7 @@ export default function HomePage() {
         <WhyUs />
         <MDA />
         <Testimonials />
+        <DeliveryProof />
         <Coverage />
         <FAQ />
         <ContactCTA />
