@@ -110,6 +110,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         streetAddress: 'Kota Kinabalu',
         addressLocality: 'Sabah',
         addressCountry: 'MY'
+      },
+      {
+        '@type': 'PostalAddress',
+        addressLocality: 'Sarawak',
+        addressCountry: 'MY'
       }
     ],
     areaServed: { '@type': 'Country', name: 'Malaysia' },

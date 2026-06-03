@@ -9,7 +9,10 @@ export const site = {
   email: 'contact@evin2u.com',
   company: 'AA Alive Sdn Bhd (1204108-D)',
   hqAddress: 'Batu Caves, Selangor, Malaysia',
-  branchAddress: 'Kota Kinabalu, Sabah',
+  branches: [
+    { label: 'Kota Kinabalu, Sabah' },
+    { label: 'Sarawak', badge: 'Baru Buka' }
+  ],
   hours: {
     weekday: 'Isnin–Jumaat, 9 pagi – 6 petang',
     weekend: 'Sabtu–Ahad, 9 pagi – 4 petang',

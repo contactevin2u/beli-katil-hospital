@@ -20,9 +20,16 @@ export function Footer() {
             <div className="mt-1 flex items-start gap-1.5">
               <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> HQ: {site.hqAddress}
             </div>
-            <div className="flex items-start gap-1.5">
-              <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> Cawangan: {site.branchAddress}
-            </div>
+            {site.branches.map((branch) => (
+              <div key={branch.label} className="flex items-start gap-1.5">
+                <MapPin size={14} className="mt-0.5 shrink-0 text-brand-400" /> Cawangan: {branch.label}
+                {branch.badge && (
+                  <span className="rounded-full bg-accent-500/20 px-1.5 py-0.5 text-[10px] font-semibold text-accent-400 leading-none">
+                    {branch.badge}
+                  </span>
+                )}
+              </div>
+            ))}
           </div>
           <div className="mt-5 flex gap-3">
             <a href={waLink()} target="_blank" rel="noopener" className="rounded-full bg-accent-500 hover:bg-accent-600 px-4 py-2 text-sm font-semibold text-white">
