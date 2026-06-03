@@ -4,7 +4,7 @@ import { MapPin } from './Icon';
 export function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
-      <div className="container-x py-14 grid lg:grid-cols-4 gap-10">
+      <div className="container-x py-10 grid lg:grid-cols-4 gap-10">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-600 text-white font-black">B</span>

@@ -38,7 +38,7 @@ const reasons: { Icon: IconType; title: string; body: string }[] = [
 
 export function WhyUs() {
   return (
-    <section className="py-16 sm:py-24">
+    <section className="py-12 sm:py-16">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -54,7 +54,7 @@ export function WhyUs() {
           </p>
         </div>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {reasons.map(({ Icon, title, body }) => (
             <div key={title} className="rounded-2xl bg-white border border-slate-100 p-6 shadow-soft">
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-brand-50 text-brand-700">

@@ -18,7 +18,7 @@ const personas: { Icon: IconType; label: string }[] = [
 
 export function WhoNeeds() {
   return (
-    <section className="py-16 sm:py-24 bg-slate-50">
+    <section className="py-12 sm:py-16 bg-slate-50">
       <div className="container-x grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <span className="pill">

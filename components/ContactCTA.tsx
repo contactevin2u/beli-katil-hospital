@@ -3,7 +3,7 @@ import { Bolt, Phone, WhatsApp, Clock, Siren, Mail } from './Icon';
 
 export function ContactCTA() {
   return (
-    <section id="hubungi" className="py-16 sm:py-24 bg-gradient-to-br from-accent-500 to-green-700 text-white">
+    <section id="hubungi" className="py-12 sm:py-16 bg-gradient-to-br from-accent-500 to-green-700 text-white">
       <div className="container-x text-center max-w-3xl mx-auto">
         <span className="pill !bg-white/15 !text-white">
           <Bolt size={14} /> Buka 7 hari seminggu

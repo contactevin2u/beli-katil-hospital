@@ -51,7 +51,7 @@ export const faqs: QA[] = [
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-16 sm:py-24 bg-slate-50">
+    <section id="faq" className="py-12 sm:py-16 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -64,7 +64,7 @@ export function FAQ() {
           </p>
         </div>
 
-        <div className="mt-10 max-w-3xl mx-auto divide-y divide-slate-100 rounded-3xl bg-white border border-slate-100 shadow-soft">
+        <div className="mt-8 max-w-3xl mx-auto divide-y divide-slate-100 rounded-3xl bg-white border border-slate-100 shadow-soft">
           {faqs.map((qa, i) => (
             <details key={i} className="group p-6 open:bg-slate-50/50">
               <summary className="cursor-pointer flex items-start justify-between gap-4 font-semibold text-slate-900">

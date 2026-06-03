@@ -33,7 +33,7 @@ function Row({ items, reverse = false, duration }: { items: string[]; reverse?: 
 
 export function DeliveryProof() {
   return (
-    <section className="py-16 sm:py-24 bg-white overflow-hidden">
+    <section className="py-12 sm:py-16 bg-white overflow-hidden">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -58,7 +58,7 @@ export function DeliveryProof() {
         </div>
       </div>
 
-      <div className="marquee-mask mt-10 space-y-3 sm:space-y-4">
+      <div className="marquee-mask mt-8 space-y-3 sm:space-y-4">
         <Row items={photos.slice(0, 6)} duration="46s" />
         <Row items={photos.slice(6, 12)} reverse duration="52s" />
       </div>

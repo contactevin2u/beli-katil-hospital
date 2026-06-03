@@ -20,7 +20,7 @@ const coverage = [
 
 export function Coverage() {
   return (
-    <section id="liputan" className="py-16 sm:py-24">
+    <section id="liputan" className="py-12 sm:py-16">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -34,7 +34,7 @@ export function Coverage() {
           </p>
         </div>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {coverage.map((c) => (
             <details key={c.state} className="rounded-2xl bg-white border border-slate-100 p-5 group">
               <summary className="cursor-pointer flex items-center justify-between font-bold text-slate-900">

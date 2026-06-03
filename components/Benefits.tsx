@@ -38,7 +38,7 @@ const benefits: { Icon: IconType; title: string; body: string }[] = [
 
 export function Benefits() {
   return (
-    <section id="kelebihan" className="py-16 sm:py-24">
+    <section id="kelebihan" className="py-12 sm:py-16">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -52,7 +52,7 @@ export function Benefits() {
           </p>
         </div>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {benefits.map(({ Icon, title, body }) => (
             <div
               key={title}

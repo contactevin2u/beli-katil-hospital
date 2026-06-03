@@ -4,7 +4,7 @@ import { Landmark } from './Icon';
 
 export function MDA() {
   return (
-    <section className="py-16 sm:py-24 bg-gradient-to-br from-brand-700 to-brand-900 text-white">
+    <section className="py-12 sm:py-16 bg-gradient-to-br from-brand-700 to-brand-900 text-white">
       <div className="container-x grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <span className="pill !bg-white/10 !text-white">

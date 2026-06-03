@@ -64,7 +64,7 @@ const products: Product[] = [
 
 export function Products() {
   return (
-    <section id="produk" className="py-16 sm:py-24 bg-slate-50">
+    <section id="produk" className="py-12 sm:py-16 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -79,7 +79,7 @@ export function Products() {
           </p>
         </div>
 
-        <div className="mt-10 grid md:grid-cols-3 gap-6">
+        <div className="mt-8 grid md:grid-cols-3 gap-6">
           {products.map((p) => (
             <article
               key={p.id}
@@ -137,7 +137,7 @@ export function Products() {
           ))}
         </div>
 
-        <div id="sewa" className="mt-14 grid md:grid-cols-2 gap-6">
+        <div id="sewa" className="mt-10 grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 text-white p-8">
             <div className="flex items-center gap-3">
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-white/15">

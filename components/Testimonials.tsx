@@ -52,7 +52,7 @@ function Stars({ count }: { count: number }) {
 
 export function Testimonials() {
   return (
-    <section className="py-16 sm:py-24 bg-slate-50">
+    <section className="py-12 sm:py-16 bg-slate-50">
       <div className="container-x">
         <div className="max-w-2xl">
           <span className="pill">
@@ -70,7 +70,7 @@ export function Testimonials() {
           </p>
         </div>
 
-        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {reviews.map((r) => (
             <article
               key={r.name}

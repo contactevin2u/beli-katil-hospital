@@ -66,7 +66,7 @@ export function OtherProducts() {
   return (
     <section
       id="peralatan-lain"
-      className="py-16 sm:py-24 bg-gradient-to-br from-brand-50 via-white to-green-50"
+      className="py-12 sm:py-16 bg-gradient-to-br from-brand-50 via-white to-green-50"
     >
       <div className="container-x">
         <div className="max-w-2xl">
@@ -83,7 +83,7 @@ export function OtherProducts() {
           </p>
         </div>
 
-        <article className="mt-10 rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-soft grid lg:grid-cols-5">
+        <article className="mt-8 rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-soft grid lg:grid-cols-5">
           <div className="lg:col-span-3 p-6 sm:p-10 flex flex-col">
             <div className="flex items-center gap-3">
               <span className="grid h-14 w-14 place-items-center rounded-2xl bg-brand-50 text-brand-700">
@@ -196,7 +196,7 @@ export function OtherProducts() {
           </div>
         </article>
 
-        <div className="mt-12">
+        <div className="mt-10">
           <div className="flex items-end justify-between flex-wrap gap-2">
             <h3 className="text-lg font-bold text-slate-900">Peralatan jaga di rumah lain</h3>
             <a
