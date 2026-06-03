@@ -67,7 +67,7 @@ export function WhoNeeds() {
 
         <div className="relative aspect-[10/11] rounded-3xl overflow-hidden shadow-soft">
           <Image
-            src="/images/penjagaan-rumah.png"
+            src="/images/penjagaan-rumah.webp"
             alt="Keluarga menjaga warga emas di atas katil hospital boleh laras di bilik tidur rumah"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
