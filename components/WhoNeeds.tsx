@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { waLink } from '@/lib/site';
-import { ImagePlaceholder } from './ImagePlaceholder';
 import { UserCircle, Brain, Stethoscope, Accessibility, Hospital, HeartPulse, Bed, Pill, Users, Clock } from './Icon';
 import type { ComponentType, SVGProps } from 'react';
 
@@ -65,11 +65,15 @@ export function WhoNeeds() {
           </div>
         </div>
 
-        <ImagePlaceholder
-          label="Penjagaan Pesakit di Rumah"
-          note="penjagaan-rumah.jpg • 1000x1100"
-          className="aspect-[10/11] rounded-3xl"
-        />
+        <div className="relative aspect-[10/11] rounded-3xl overflow-hidden shadow-soft">
+          <Image
+            src="/images/penjagaan-rumah.png"
+            alt="Keluarga menjaga warga emas di atas katil hospital boleh laras di bilik tidur rumah"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
+          />
+        </div>
       </div>
     </section>
   );
