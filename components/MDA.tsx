@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { site } from '@/lib/site';
-import { ImagePlaceholder } from './ImagePlaceholder';
 import { Landmark } from './Icon';
 
 export function MDA() {
@@ -43,12 +43,18 @@ export function MDA() {
 
         <div className="grid grid-cols-2 gap-3">
           {[1, 2, 3, 4].map((i) => (
-            <ImagePlaceholder
+            <div
               key={i}
-              label={`Bukti pemasangan ${i}`}
-              note={`pemasangan-${i}.jpg`}
-              className="aspect-square rounded-2xl !bg-white/10 !border-white/20 !text-white/60"
-            />
+              className="relative aspect-square rounded-2xl overflow-hidden border border-white/20 bg-white/10"
+            >
+              <Image
+                src={`/images/bukti-penghantaran-${i}.webp`}
+                alt={`Bukti penghantaran dan pemasangan katil hospital ${i}`}
+                fill
+                sizes="(max-width: 1024px) 50vw, 25vw"
+                className="object-cover"
+              />
+            </div>
           ))}
         </div>
       </div>
