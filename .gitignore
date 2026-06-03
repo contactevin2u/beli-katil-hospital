@@ -38,3 +38,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local source/raw image assets (not used by the site)
+/Images/
+/public/Bukti Penghantaran/
