@@ -4,6 +4,8 @@ import { site } from '@/lib/site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
+  // Search Console ownership (service account indexing@test2-8f138, added 2026-09-19).
+  verification: { google: 'AQgDf_5xj_8CpQrnUbRxU30EwFBnu19F5sIr-ksI4DY' },
   title: {
     default: 'Beli Katil Hospital Malaysia | Sewa Mulai RM150/bulan',
     template: '%s | Beli Katil Hospital Malaysia'
