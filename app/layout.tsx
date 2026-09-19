@@ -5,7 +5,10 @@ import { site } from '@/lib/site';
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   // Search Console ownership (service account indexing@test2-8f138, added 2026-09-19).
-  verification: { google: 'AQgDf_5xj_8CpQrnUbRxU30EwFBnu19F5sIr-ksI4DY' },
+  verification: {
+    google: 'AQgDf_5xj_8CpQrnUbRxU30EwFBnu19F5sIr-ksI4DY',
+    other: { 'msvalidate.01': 'D27A8EA8F079D70AE0C2C3D09D98297F' }
+  },
   title: {
     default: 'Beli Katil Hospital Malaysia | Sewa Mulai RM150/bulan',
     template: '%s | Beli Katil Hospital Malaysia'
