@@ -1,15 +1,10 @@
 import type { MetadataRoute } from 'next';
 import { site } from '@/lib/site';
 
+// One-page site: the #produk/#sewa/... sections are fragments of the same URL,
+// which Google ignores in sitemaps, so only the page itself is listed.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   return [
-    { url: site.domain, lastModified: now, changeFrequency: 'weekly', priority: 1 },
-    { url: `${site.domain}#produk`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${site.domain}#sewa`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${site.domain}#beli`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${site.domain}#kelebihan`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${site.domain}#liputan`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${site.domain}#faq`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 }
+    { url: `${site.domain}/`, lastModified: new Date('2026-09-19'), changeFrequency: 'weekly', priority: 1 }
   ];
 }
