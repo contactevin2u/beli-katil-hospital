@@ -9,7 +9,7 @@ export const faqs: QA[] = [
   },
   {
     q: 'Berapa sewa katil hospital sebulan?',
-    a: 'Sewa start dari RM150/bulan (manual 2-function) dan RM250/bulan (3-function — paling laris). Katil elektrik 6-function (Ultra) dijual sahaja pada RM5,500 — tiada pilihan sewa untuk model ni. Tiada deposit, dan boleh sewa sebulan sahaja. Kalau family nak miliki katil tu kemudian, tanya kami tentang pilihan tukar sewa kepada beli — sebahagian bayaran sewa boleh ditolak dari harga beli, ikut quotation.'
+    a: 'Sewa start dari RM150/bulan (manual 2-function) dan RM250/bulan (3-function — paling laris). Katil elektrik 6-function (Ultra) dijual sahaja pada RM5,500 — tiada pilihan sewa untuk model ni. Tiada deposit, dan boleh sewa sebulan sahaja. Kalau family nak miliki katil tu kemudian, boleh bincang tolak sebahagian bayaran sewa jika beli kemudian — ikut sebut harga bertulis.'
   },
   {
     q: 'Apa beza katil 2-function, 3-function, dan elektrik 6-function?',
@@ -25,7 +25,7 @@ export const faqs: QA[] = [
   },
   {
     q: 'Boleh sewa katil dulu, beli kemudian?',
-    a: 'Boleh. Mula dengan sewa bulanan — boleh sewa sebulan sahaja. Kalau lepas beberapa bulan family rasa nak miliki katil tu, tanya kami tentang pilihan tukar sewa kepada beli: sebahagian bayaran sewa boleh ditolak dari harga beli, dan semua terma ditulis dalam quotation.'
+    a: 'Boleh. Mula dengan sewa bulanan — boleh sewa sebulan sahaja. Kalau lepas beberapa bulan family rasa nak miliki katil tu, boleh bincang tolak sebahagian bayaran sewa jika beli kemudian — ikut sebut harga bertulis.'
   },
   {
     q: 'Ada ansuran untuk beli ke?',

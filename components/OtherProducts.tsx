@@ -178,7 +178,7 @@ export function OtherProducts() {
                   Cuba CPAP 7 hari di rumah
                 </div>
                 <div className="text-xs text-brand-100 mt-1">
-                  Tak sesuai? Pulangkan, tiada penalti.
+                  Tak sesuai? Pulangan ikut terma percubaan bertulis.
                 </div>
               </div>
               <div className="rounded-2xl bg-white/10 border border-white/15 p-4">

@@ -12,7 +12,7 @@ const reasons: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: DollarSign,
     title: 'Sewa dulu, decide kemudian',
-    body: 'Mula dari RM150/bulan, tiada deposit, boleh sewa sebulan sahaja. Kalau lepas tu rasa nak beli, tanya kami tentang pilihan tukar sewa kepada beli — sebahagian bayaran sewa boleh ditolak dari harga beli, ikut quotation.'
+    body: 'Mula dari RM150/bulan, tiada deposit, boleh sewa sebulan sahaja. Kalau lepas tu rasa nak beli, boleh bincang tolak sebahagian bayaran sewa jika beli kemudian — ikut sebut harga bertulis.'
   },
   {
     Icon: Bolt,

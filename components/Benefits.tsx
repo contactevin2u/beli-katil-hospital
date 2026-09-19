@@ -17,7 +17,7 @@ const benefits: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Bone,
     title: 'Side rail elak pesakit jatuh',
-    body: 'Pagar sisi penuh terbukti reduce kes jatuh dari katil sampai 55% — sangat penting untuk warga emas, pesakit strok, atau yang ada dementia.'
+    body: 'Pagar sisi penuh bantu kurangkan risiko pesakit jatuh dari katil — sangat penting untuk warga emas, pesakit strok, atau yang ada dementia.'
   },
   {
     Icon: Dumbbell,

@@ -148,9 +148,8 @@ export function Products() {
             </div>
             <p className="mt-3 text-brand-100">
               Tak sure berapa lama nak guna? Mula dengan sewa bulanan dulu — kalau lepas tu family
-              rasa nak miliki, <strong className="text-white">tanya kami tentang pilihan tukar sewa
-              kepada beli</strong> — sebahagian bayaran sewa boleh ditolak dari harga beli, ikut
-              quotation. Tiada deposit, dan boleh sewa sebulan sahaja.
+              rasa nak miliki, <strong className="text-white">boleh bincang tolak sebahagian bayaran
+              sewa</strong> jika beli kemudian — ikut sebut harga bertulis. Tiada deposit, dan boleh sewa sebulan sahaja.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
               <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan &amp; tunjuk cara guna kepada caregiver — caj disahkan dalam quotation</li>
