@@ -6,23 +6,23 @@ type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string
 const reasons: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Trophy,
-    title: '10+ tahun fokus pada home care',
-    body: 'Sejak 2016 kami buat satu benda je: bantu family Malaysia jaga orang tersayang di rumah. Bukan kerja sambilan kedai perabot — ni la kerja harian kami, untuk lebih 5,000 family setakat ni.'
+    title: 'Fokus pada home care',
+    body: 'AA Alive Sdn Bhd (berdaftar 2016) buat satu benda je: bantu family Malaysia jaga orang tersayang di rumah. Bukan kerja sambilan kedai perabot — rekod kami mencatat 12,000+ penghantaran peralatan perubatan yang selesai dari Mac 2023 hingga April 2026.'
   },
   {
     Icon: DollarSign,
     title: 'Sewa dulu, decide kemudian',
-    body: 'Mula dari RM150/bulan, no deposit. Kalau lepas tu rasa nak beli, semua bayaran sewa yang dah bayar tu kami tolak dari harga beli. Plus ansuran 0% sampai 12 bulan untuk model elektrik.'
+    body: 'Mula dari RM150/bulan, tiada deposit, boleh sewa sebulan sahaja. Kalau lepas tu rasa nak beli, tanya kami tentang pilihan tukar sewa kepada beli — sebahagian bayaran sewa boleh ditolak dari harga beli, ikut quotation.'
   },
   {
     Icon: Bolt,
-    title: 'Pemasangan FREE di rumah',
-    body: 'Tiada caj tambahan untuk pemasangan — crew kami yang setup, bukan family yang kena bertarung dengan skrew dan manual. Test semua function, demo remote, dan walkthrough caregiver semua sekali. Quotation tu la harga sebenar, no surprises.'
+    title: 'Bayar selepas katil siap dipasang',
+    body: 'Crew kami yang setup, bukan family yang kena bertarung dengan skrew dan manual. Semua caj penghantaran dan pemasangan ditulis dalam quotation sebelum order, dan bayaran dikutip selepas katil sampai dan siap dipasang — no surprises.'
   },
   {
     Icon: Phone,
-    title: 'Support sebenar, walaupun pukul 2 pagi',
-    body: 'Katil rosak tengah malam? Pesakit tersangkut posisi awkward? Talian kecemasan kami buka 24/7 — termasuk Raya, CNY, Deepavali. Crew kami akan datang ke rumah.'
+    title: 'Support selepas pemasangan',
+    body: 'Ada masalah dengan katil? WhatsApp kami bila-bila masa — team kami akan susun servis atau penggantian ikut terma sewa atau waranti bertulis anda.'
   },
   {
     Icon: Wrench,

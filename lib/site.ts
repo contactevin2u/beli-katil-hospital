@@ -1,7 +1,8 @@
 export const site = {
   brand: 'Beli Katil Hospital',
-  tagline: 'Hospital bed Malaysia untuk jaga keluarga di rumah, sejak 2016',
-  domain: 'https://belikatilhospital.my',
+  tagline: 'Hospital bed Malaysia untuk jaga keluarga di rumah — AA Alive Sdn Bhd, berdaftar sejak 2016',
+  domain: 'https://www.katilhospitalmalaysia.com',
+  officialSite: 'https://www.katil-hospital-bed.my/',
   phone: '011-1114 1766',
   phoneIntl: '+60111114 1766',
   whatsappNumber: '601111141766',
@@ -16,7 +17,7 @@ export const site = {
   hours: {
     weekday: 'Isnin–Jumaat, 9 pagi – 6 petang',
     weekend: 'Sabtu–Ahad, 9 pagi – 4 petang',
-    emergency: 'Talian kecemasan 24/7'
+    emergency: 'WhatsApp bila-bila masa — balasan ikut waktu operasi'
   },
   mda: {
     registration: 'GA9817222-107721',

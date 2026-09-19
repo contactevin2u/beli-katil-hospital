@@ -1,10 +1,10 @@
 import { Star } from './Icon';
 
-const stats = [
-  { value: '5,000+', label: 'Keluarga Malaysia dah guna' },
-  { value: '10+', label: 'Tahun fokus jaga di rumah' },
-  { value: '4.9', label: 'Rating Google (500+ ulasan)', star: true },
-  { value: '24/7', label: 'Talian sokongan kecemasan' }
+const stats: { value: string; label: string; star?: boolean }[] = [
+  { value: '12,000+', label: 'Penghantaran peralatan perubatan selesai (Mac 2023 – Apr 2026)' },
+  { value: '2016', label: 'AA Alive Sdn Bhd berdaftar' },
+  { value: 'MDA', label: 'Semua model katil berdaftar (GA9817222-107721)' },
+  { value: 'RM0', label: 'Deposit sewa katil hospital' }
 ];
 
 export function TrustBar() {

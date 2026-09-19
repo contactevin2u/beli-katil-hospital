@@ -50,9 +50,9 @@ export function WhoNeeds() {
               <Clock size={18} /> Pesakit nak discharge esok?
             </div>
             <p className="text-sm text-amber-800 mt-1">
-              Order before 2 petang, kami pasang siap di rumah <strong>hari yang sama</strong>{' '}
-              untuk Klang Valley — sebelum pesakit sampai lagi. Team kami stand by 7 hari
-              seminggu, termasuk weekend dan cuti umum, sebab kecemasan tak tunggu hari kerja.
+              Penghantaran <strong>hari yang sama</strong> mungkin untuk order terpilih di Klang Valley —
+              bergantung pada stok, poskod dan akses rumah, dan slot disahkan secara bertulis untuk
+              order anda. WhatsApp kami awal supaya katil siap sebelum pesakit sampai.
             </p>
             <a
               href={waLink('Hai, ahli keluarga saya nak discharge dari hospital. Boleh tolong saya pilih katil yang sesuai?')}

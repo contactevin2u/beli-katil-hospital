@@ -6,10 +6,10 @@ import type { ComponentType, SVGProps } from 'react';
 type IconType = ComponentType<SVGProps<SVGSVGElement> & { size?: number | string }>;
 
 const badges: { Icon: IconType; label: string }[] = [
-  { Icon: Wrench, label: 'Pemasangan FREE' },
+  { Icon: Wrench, label: 'Bayar selepas pasang' },
   { Icon: CheckCircle, label: 'Tiada deposit' },
-  { Icon: Clock, label: 'Setup hari sama' },
-  { Icon: Hospital, label: 'Daftar MDA' }
+  { Icon: Clock, label: 'Slot hantar disahkan bertulis' },
+  { Icon: Hospital, label: 'Berdaftar MDA' }
 ];
 
 export function Hero() {
@@ -18,7 +18,7 @@ export function Hero() {
       <div className="container-x py-10 sm:py-16 grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span className="pill">
-            <StarOutline size={14} /> Dipercayai 5,000+ keluarga Malaysia sejak 2016
+            <StarOutline size={14} /> 12,000+ penghantaran peralatan perubatan selesai (Mac 2023 – Apr 2026)
           </span>
           <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.05]">
             <span className="text-brand-700">Katil Hospital Malaysia</span>, Berkualiti & Berpatutan
@@ -27,7 +27,7 @@ export function Hero() {
             Cari hospital bed yang betul-betul sesuai untuk jaga ibu ayah, recovery lepas
             operation, atau pesakit terlantar? Kami bantu families seluruh Malaysia pilih katil
             yang berbaloi — <strong>sewa mulai RM150/bulan</strong> atau{' '}
-            <strong>beli mulai RM799</strong>. Pemasangan FREE di rumah, no deposit.
+            <strong>beli mulai RM799</strong>. Tiada deposit sewa — bayar selepas katil sampai dan siap dipasang.
           </p>
 
           <div className="mt-7 flex flex-col sm:flex-row gap-3">
@@ -83,10 +83,10 @@ export function Hero() {
           <div className="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-soft p-4 border border-slate-100 hidden sm:block">
             <div className="text-xs text-slate-500">Pakej bulan ni</div>
             <div className="font-bold text-slate-900">Sewa mulai RM150/bulan</div>
-            <div className="text-xs text-accent-600 font-semibold">+ tiang IV & meja makan FREE</div>
+            <div className="text-xs text-accent-600 font-semibold">Tiada deposit · bayar selepas pasang</div>
           </div>
           <div className="absolute -top-4 -right-2 bg-accent-500 text-white rounded-full px-4 py-2 text-sm font-bold shadow-soft hidden sm:flex items-center gap-1.5">
-            Siap hari ni <Bolt size={14} />
+            Hantar hari sama? Tanya slot <Bolt size={14} />
           </div>
         </div>
       </div>

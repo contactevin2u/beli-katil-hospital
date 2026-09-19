@@ -20,8 +20,8 @@ const cpapFeatures = [
   'Mask, tubing & humidifier — semua included',
   'Pilihan AutoCPAP & BiPAP',
   'Setup & demo cara guna terus di rumah',
-  'Servis & support teknikal 24/7',
-  'Sewa dulu, beli kemudian — bayaran sewa ditolak dari harga beli'
+  'Support teknikal melalui WhatsApp',
+  'Sewa dulu — tanya kami tentang pilihan tukar sewa kepada beli'
 ];
 
 const cpapSigns = [

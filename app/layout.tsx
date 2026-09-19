@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: '%s | Beli Katil Hospital Malaysia'
   },
   description:
-    'Cari katil hospital untuk jaga keluarga di rumah? Sewa mulai RM150/bulan atau beli mulai RM799. Pemasangan FREE, daftar MDA. Trusted sejak 2016.',
+    'Cari katil hospital untuk jaga keluarga di rumah? Sewa mulai RM150/bulan atau beli mulai RM799. Tiada deposit sewa, katil berdaftar MDA. AA Alive Sdn Bhd, berdaftar sejak 2016.',
   keywords: [
     'beli katil hospital',
     'beli katil hospital Malaysia',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: site.brand,
     title: 'Beli Katil Hospital Malaysia — Sewa Dulu, Beli Kemudian',
     description:
-      'Katil hospital senang guna untuk jaga ibu ayah, lepas operation, atau pesakit terlantar. Sewa mulai RM150/bulan, beli mulai RM799. Pemasangan FREE di rumah anda.',
+      'Katil hospital senang guna untuk jaga ibu ayah, lepas operation, atau pesakit terlantar. Sewa mulai RM150/bulan, beli mulai RM799. Tiada deposit sewa; bayar selepas katil sampai dan siap dipasang.',
     images: [
       {
         url: '/og-image.jpg',
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Beli Katil Hospital Malaysia | Hospital Bed untuk Jaga di Rumah',
-    description: 'Sewa mulai RM150/bulan atau beli mulai RM799. Pemasangan FREE, daftar MDA.',
+    description: 'Sewa mulai RM150/bulan atau beli mulai RM799. Tiada deposit sewa, katil berdaftar MDA.',
     images: ['/og-image.jpg']
   },
   robots: {
@@ -101,19 +101,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     address: [
       {
         '@type': 'PostalAddress',
-        streetAddress: 'Batu Caves',
-        addressLocality: 'Selangor',
+        streetAddress: '1, Jalan Perusahaan 4, Kawasan Industri Batu Caves',
+        postalCode: '68100',
+        addressLocality: 'Batu Caves',
+        addressRegion: 'Selangor',
         addressCountry: 'MY'
       },
       {
         '@type': 'PostalAddress',
-        streetAddress: 'Kota Kinabalu',
-        addressLocality: 'Sabah',
+        streetAddress: 'DBKK No. 32A, Lot 23A, Sierra BizHub, Lorong BizHub',
+        postalCode: '88450',
+        addressLocality: 'Kota Kinabalu',
+        addressRegion: 'Sabah',
         addressCountry: 'MY'
       },
       {
         '@type': 'PostalAddress',
-        addressLocality: 'Sarawak',
+        streetAddress: 'SL 32, Lot 884, Kitang North Industry, Batu Kitang, Jalan Kuching-Bau',
+        postalCode: '93250',
+        addressLocality: 'Kuching',
+        addressRegion: 'Sarawak',
         addressCountry: 'MY'
       }
     ],
@@ -133,14 +140,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       }
     ],
     sameAs: [
-      'https://www.facebook.com/',
-      'https://www.instagram.com/',
-      `https://wa.me/${site.whatsappNumber.replace(/\s/g, '')}`
+      site.officialSite,
+      'https://www.facebook.com/katilhospitalmy/',
+      'https://www.instagram.com/katilhospitalmy/',
+      'https://www.tiktok.com/@katilhospitalprihatin_',
+      'https://my.linkedin.com/company/aa-alive'
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '500'
+    parentOrganization: {
+      '@type': 'Organization',
+      name: 'AA Alive Sdn Bhd',
+      legalName: 'AA Alive Sdn Bhd',
+      url: site.officialSite,
+      identifier: {
+        '@type': 'PropertyValue',
+        propertyID: 'SSM',
+        value: '201601033167 (1204108-D)'
+      }
     }
   };
 

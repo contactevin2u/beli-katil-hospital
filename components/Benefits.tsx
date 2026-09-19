@@ -12,7 +12,7 @@ const benefits: { Icon: IconType; title: string; body: string }[] = [
   {
     Icon: Bandage,
     title: 'Cegah lubang baring (pressure sore)',
-    body: 'Pesakit yang terlantar lebih 2 minggu, 1 dari 7 akan kena lubang baring. Air mattress + ubah posisi tiap 2 jam boleh cut risiko sampai 80%.'
+    body: 'Pesakit yang terlantar lama berisiko dapat lubang baring. Air mattress dan jadual ubah posisi ikut nasihat doktor atau jururawat boleh bantu kurangkan risiko tu.'
   },
   {
     Icon: Bone,

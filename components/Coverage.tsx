@@ -29,7 +29,7 @@ export function Coverage() {
           <h2 className="section-title mt-3">Dari KL sampai Kota Kinabalu — kami cover seluruh Malaysia</h2>
           <p className="section-sub">
             Hub utama di Batu Caves (Selangor), cawangan di Kota Kinabalu (Sabah). Kami serve
-            14 negeri + W.P. Labuan — termasuk pulau macam Langkawi dan Pulau Pinang. WhatsApp
+            Penghantaran ke seluruh Semenanjung, Sabah, Sarawak dan W.P. Labuan (caj ikut alamat, sehala paling tinggi RM280) — termasuk pulau macam Langkawi dan Pulau Pinang. WhatsApp
             kami untuk detail jadual setup ke kawasan anda.
           </p>
         </div>

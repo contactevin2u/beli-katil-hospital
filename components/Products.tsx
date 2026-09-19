@@ -41,7 +41,7 @@ const products: Product[] = [
       'Tinggi katil naik-turun — penjaga tak payah membongkok',
       'Tukar lampin & transfer pesakit jadi senang',
       'Side rail keselamatan penuh',
-      'FREE tilam ortopedik anti-bedsore'
+      'Tilam boleh ditambah secara berasingan (ikut quotation)'
     ],
     image: { src: '/images/katil-3-function.webp', width: 560, height: 560 }
   },
@@ -49,14 +49,14 @@ const products: Product[] = [
     id: 'ultra-electric',
     name: 'Ultra Electric 6-Function',
     tagline: 'Full elektrik — sesuai untuk kes long-term & terlantar berat',
-    rentPrice: 'RM715/bulan (ansuran)',
+    rentPrice: 'Beli sahaja',
     buyPrice: 'RM5,500',
     features: [
       'Remote control — sorang caregiver pun boleh handle',
       '6 posisi yang boleh adjust ikut keselesaan pesakit',
       'Mod Trendelenburg untuk kes kecemasan',
       'Battery backup — masa blackout pun masih function',
-      'Termasuk air mattress untuk elak lubang baring'
+      'Air mattress boleh ditambah secara berasingan (ikut quotation)'
     ],
     image: { src: '/images/katil-elektrik.webp', width: 420, height: 420 }
   }
@@ -73,9 +73,10 @@ export function Products() {
           <h2 className="section-title mt-3">Tiga katil — semua build untuk home care</h2>
           <p className="section-sub">
             Dari katil manual yang simple untuk recovery ringan, sampai katil elektrik full-motor
-            untuk pesakit terlantar lama — semua model lulus standard MDA. Boleh <strong>sewa</strong>{' '}
-            atau <strong>beli</strong>, dan kami pasang sendiri di rumah, sekali demo cara guna
-            untuk caregiver. Semua free.
+            untuk pesakit terlantar lama — semua model berdaftar dengan MDA (GA9817222-107721). Boleh{' '}
+            <strong>sewa</strong> (model 2 &amp; 3 function) atau <strong>beli</strong>, dan team kami
+            pasang di rumah sekali tunjuk cara guna kepada caregiver. Caj penghantaran &amp; pemasangan
+            disahkan dalam quotation bertulis.
           </p>
         </div>
 
@@ -147,14 +148,14 @@ export function Products() {
             </div>
             <p className="mt-3 text-brand-100">
               Tak sure berapa lama nak guna? Mula dengan sewa bulanan dulu — kalau lepas tu family
-              rasa nak miliki, <strong className="text-white">100% bayaran sewa yang dah dibayar
-              ditolak terus dari harga beli</strong>. Tiada deposit, tiada lock-in, tiada caj
-              cancel yang menyusahkan.
+              rasa nak miliki, <strong className="text-white">tanya kami tentang pilihan tukar sewa
+              kepada beli</strong> — sebahagian bayaran sewa boleh ditolak dari harga beli, ikut
+              quotation. Tiada deposit, dan boleh sewa sebulan sahaja.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-brand-100">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan FREE & training caregiver — included</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis & tukar parts sepanjang sewa — covered</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Boleh batal lepas bulan pertama, no penalty</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Pemasangan &amp; tunjuk cara guna kepada caregiver — caj disahkan dalam quotation</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Servis atau penggantian sepanjang sewa — ikut terma sewa bertulis</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0" /> Bayar selepas katil sampai dan siap dipasang</li>
             </ul>
           </div>
           <div id="beli" className="rounded-3xl bg-white border border-slate-100 p-8 shadow-soft">
@@ -166,13 +167,13 @@ export function Products() {
             </div>
             <p className="mt-3 text-slate-600">
               Untuk kes panjang — macam jaga ibu ayah jangka lama atau recovery 6 bulan ke atas —
-              beli terus selalunya lagi berbaloi dari sewa. Boleh ansuran 0% sampai 12 bulan untuk
-              model elektrik, approval keluar dalam beberapa minit terus dari WhatsApp.
+              beli terus selalunya lagi berbaloi dari sewa. Pilihan ansuran boleh dibincang — ditandatangani
+              selepas katil sampai, dan semua terma ditulis dalam quotation.
             </p>
             <ul className="mt-4 space-y-1.5 text-sm text-slate-700">
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti rangka 2 tahun, motor 1 tahun</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Waranti 1 tahun untuk katil baru — skop ikut invois</li>
               <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Trade-in — kami beli balik bila dah tak guna</li>
-              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran 0% sampai 12 bulan (model elektrik)</li>
+              <li className="flex items-start gap-2"><Check size={16} className="mt-0.5 shrink-0 text-accent-500" /> Ansuran ditandatangani selepas penghantaran, bukan sebelum</li>
             </ul>
           </div>
         </div>

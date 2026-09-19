@@ -9,10 +9,10 @@ export function ContactCTA() {
           <Bolt size={14} /> Buka 7 hari seminggu
         </span>
         <h2 className="text-3xl sm:text-5xl font-extrabold mt-4 leading-tight">
-          Perlukan katil hospital hari ni? Kami boleh setup dalam 4 jam.
+          Perlukan katil hospital cepat? Tanya slot penghantaran hari ni.
         </h2>
         <p className="mt-5 text-green-50 text-lg">
-          WhatsApp kami — biasanya kami reply dalam 5 minit. Cerita sikit pasal keadaan pesakit
+          WhatsApp kami. Cerita sikit pasal keadaan pesakit
           dan keadaan rumah, dan kami suggest katil yang betul-betul sesuai untuk family anda.
           Tiada hard sell, tiada paksaan.
         </p>
